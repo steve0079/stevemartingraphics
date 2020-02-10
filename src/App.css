@@ -5,13 +5,40 @@
 }
 
 .App_Container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 900;
-  font-style: italic;
-  color: white;
-  background-color: blue;
-  height: 100vh;
+  position: relative;
+  height: 91vh;
+  width: 100%;
+  padding-top: 150px;
+  background: url(./images/brs_resort_grounds_2700x1500_20.jpg);
+  z-index: -2;
+}
+
+@media(min-width: 1024px) {
+  .title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding: 30px 16.7% 10px;
+  }
+  p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    padding: 0 20% 10px;
+  }
+}
+
+@media(min-width: 1441px) {
+  .title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding: 30px 25% 10px;
+  }
+  p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    padding: 0 28% 10px;
+  }
 }
