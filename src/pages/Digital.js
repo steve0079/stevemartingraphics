@@ -2,9 +2,7 @@ import React from 'react'
 
 const Digital = () => {
     return (
-        <div>
-          This is my Digital link  
-        </div>
+        <h1 className="title">This is my Digital link</h1>
     )
 }
 

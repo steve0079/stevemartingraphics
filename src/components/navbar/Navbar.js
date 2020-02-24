@@ -14,7 +14,7 @@ const Navbar = () => {
                     <Link to='/print' className="btn">PRINT</Link>
                     <Link to='/digital' className="btn">DIGITAL</Link>
                     <Link to='/retouching' className="btn">RETOUCHING</Link>
-                    <Link to='/logo_design' className="btn">LOGO DESIGN</Link>
+                    <Link to='/logo_design' className="btn">LOGOS</Link>
                     <Link to='/about' className="btn">ABOUT</Link>
                 </div>
             </div>

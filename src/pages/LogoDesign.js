@@ -2,9 +2,8 @@ import React from 'react'
 
 const LogoDesign = () => {
     return (
-        <div>
-          This is my Logo Design link  
-        </div>
+      <h1 className="title">This is my Logo Design link</h1>
+
     )
 }
 
