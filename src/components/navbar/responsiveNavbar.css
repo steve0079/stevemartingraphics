@@ -1,0 +1,66 @@
+.toolbar {
+    position: fixed;
+    width: 100%;
+    background: rgb(81, 97, 124);
+    height: 100px;
+    font-family: 'Open Sans', sans-serif;
+    z-index: 300;
+}
+
+.toolbar_navigation {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    padding-left: 1rem;
+}
+
+.spacer {
+    flex: 1;
+}
+
+.toolbar_logo {
+    margin-left: 1rem;
+    font-size: 2.5rem;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.toolbar_logoType {
+    font-size: 1rem;
+    letter-spacing: .5px;
+}
+
+.toolbar_navigation_items .btn {
+    font-size: .75rem;
+    color: white;
+    text-decoration: none;
+    padding: 0 .75rem;
+}
+
+.toolbar_navigation_items .btn:hover, .toolbar_navigation_items .btn:active {
+    color: rgb(255, 164, 27)
+}
+
+@media (max-width: 768px) {
+    .toolbar_logo {
+        margin-left: 2rem;
+        font-size: 2.5rem;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+    }
+    .toolbar_navigation_items {
+        display: none;
+    }
+}
+
+@media (min-width: 769px) {
+    .toolbar_toggle-button {
+        display: none;
+    }
+    .toolbar_logo {
+        margin-left: 10px;
+        text-align: center;
+    }
+}
