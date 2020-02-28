@@ -35,24 +35,24 @@ function App() {
   }
 
   return (
-      <div className="App_Container">
-        <div style={{ height: '100%' }}>
-          <Router>
-            <Navbar drawerClickHandler={drawerToggleClickHandler} />
-            <SideDrawer show={state.sideDrawerOpen} />
-            {backdrop}
-            <Switch>
-              <Route exact path='/' component={Home} />
-              <Route exact path='/print' component={Print} />
-              <Route exact path='/digital' component={Digital} />
-              <Route exact path='/retouching' component={Retouching} />
-              <Route exact path='/logo_design' component={LogoDesign} />
-              <Route exact path='/about' component={About} />
-            </Switch>
-          </Router>
-      <Footer />
-        </div>
+    <div className="App_Container">
+      <div style={{ height: '100%' }}>
+        <Navbar drawerClickHandler={drawerToggleClickHandler} />
+        <SideDrawer show={state.sideDrawerOpen} />
+        {backdrop}
+        <Router>
+          <Switch>
+            <Route exact path='/' component={Home} />
+            <Route exact path='/print' component={Print} />
+            <Route exact path='/digital' component={Digital} />
+            <Route exact path='/retouching' component={Retouching} />
+            <Route exact path='/logo_design' component={LogoDesign} />
+            <Route exact path='/about' component={About} />
+          </Switch>
+        </Router>
       </div>
+      <Footer />
+    </div>
   );
 }
 

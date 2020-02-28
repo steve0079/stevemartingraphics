@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 
 import DrawerToggleButton from '../sideDrawer/DrawerToggleButton'
 import './responsiveNavbar.css'
@@ -11,16 +10,16 @@ const navbar = props => (
                 <DrawerToggleButton click={props.drawerClickHandler} />
             </div>
             <div className="toolbar_logo">Steve Martin
-            <div className="toolbar_logoType"> Graphic Design • Print • Digital</div>
+            <div className="toolbar_logoType"> Graphic Designer • Web Developer</div>
             </div>
             <div className="spacer"></div>
             <div className='toolbar_navigation_items'>
-                <Link to='/' className="btn">HOME</Link>
-                <Link to='/print' className="btn">PRINT</Link>
-                <Link to='/digital' className="btn">DIGITAL</Link>
-                <Link to='/retouching' className="btn">RETOUCHING</Link>
-                <Link to='/logo_design' className="btn">LOGOS</Link>
-                <Link to='/about' className="btn">ABOUT</Link>
+                <a href='/' className="item">HOME</a>
+                <a href='/print' className="item">PRINT</a>
+                <a href='/digital' className="item">DIGITAL</a>
+                <a href='/retouching' className="item">RETOUCHING</a>
+                <a href='/logo_design' className="item">LOGOS</a>
+                <a href='/about' className="item">ABOUT</a>
             </div>
         </nav>
     </header>

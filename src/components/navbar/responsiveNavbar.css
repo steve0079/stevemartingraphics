@@ -2,16 +2,19 @@
     position: fixed;
     width: 100%;
     background: rgb(81, 97, 124);
+    box-shadow: 0 0 10px rgb(0, 0, 0);
     height: 100px;
     font-family: 'Open Sans', sans-serif;
+    padding: 0 20px;
     z-index: 300;
 }
 
 .toolbar_navigation {
     display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100%;
     align-items: center;
-    padding-left: 1rem;
 }
 
 .spacer {
@@ -20,7 +23,8 @@
 
 .toolbar_logo {
     margin-left: 1rem;
-    font-size: 2.5rem;
+    font-size: 2.7rem;
+    letter-spacing: 1.25px;
     color: white;
     text-decoration: none;
     text-transform: uppercase;
@@ -31,36 +35,55 @@
     letter-spacing: .5px;
 }
 
-.toolbar_navigation_items .btn {
+.toolbar_navigation_items .item {
     font-size: .75rem;
     color: white;
     text-decoration: none;
     padding: 0 .75rem;
 }
 
-.toolbar_navigation_items .btn:hover, .toolbar_navigation_items .btn:active {
+.toolbar_navigation_items .item:hover {
     color: rgb(255, 164, 27)
 }
 
-@media (max-width: 768px) {
+.toolbar_navigation_items .item:active {
+    color: blue;
+}
+
+@media (max-width: 900px) {
+    .toolbar {
+        height: 70px;
+        position: relative;
+    }
     .toolbar_logo {
-        margin-left: 2rem;
-        font-size: 2.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        font-size: 2.3rem;
+        letter-spacing: 1px;
         color: white;
-        text-align: center;
         text-decoration: none;
+        margin: 10px;
+    }
+    .toolbar_logoType {
+        font-size: .82rem;
+        line-height: .7rem;
+        letter-spacing: .75px;
+        padding: 0 10px;
     }
     .toolbar_navigation_items {
         display: none;
     }
 }
 
-@media (min-width: 769px) {
+@media (min-width: 901px) {
     .toolbar_toggle-button {
         display: none;
     }
     .toolbar_logo {
         margin-left: 10px;
+        justify-content: center;
         text-align: center;
     }
 }

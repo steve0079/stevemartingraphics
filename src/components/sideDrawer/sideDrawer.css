@@ -6,7 +6,7 @@
     top: 0;
     left: 0;
     width: 70%;
-    max-width: 400px;
+    max-width: 200px;
     z-index: 200;
     transform: translateX(-100%);
     transition: transform 0.3s ease-out;
@@ -36,12 +36,11 @@
     font-size: 1.2rem;
 }
 
-side-drawer a:hover, 
-side-drawer a:active {
+side-drawer a:hover, side-drawer a:active {
     color: rgb(255, 164, 27);
 }
 
-@media (min-width: 769px) {
+@media (min-width: 901px) {
     .side-drawer {
         display: none;
     }

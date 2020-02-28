@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -10,38 +9,46 @@
   height: 100vh;
   width: 100%;
   background: url(./images/BRS_Resort_Grounds_2700x1500_20.jpg);
-  background-size: cover;
+  background-size: max-content;
   background-repeat: no-repeat;
 }
 
 .title {
   font-family: 'Open Sans', sans-serif;
-  font-size: 36px;
-  font-weight: 900;
+  font-size: 30px;
+  font-weight: 700;
   text-transform: uppercase;
-  padding: 120px 25% 10px;
+  padding: 160px 20% 10px;
 }
 
 p {
   font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
   font-size: 1rem;
-  padding: 0 28% 10px;
+  padding: 10px 22% 10px;
 }
 
-@media(max-width: 768px) {
+@media(max-width: 900px) {
   .App_Container {
-    background-image: none;
+    position: relative;
+    background-position: center;
+    top: 0;
+    height: 100%;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
   }
   .title {
     font-family: 'Open Sans', sans-serif;
     font-size: 28px;
     font-weight: 900;
     text-transform: uppercase;
-    padding: 120px 14% 10px;
+    padding: 30px 35px 10px;
   }
   p {
     font-family: 'Open Sans', sans-serif;
-    font-size: 1rem;
-    padding: 0 20% 10px;
+    font-size: .85rem;
+    padding: 10px 35px;
   }
 }
