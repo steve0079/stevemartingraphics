@@ -6,9 +6,8 @@
 
 .App_Container {
   position: relative;
-  height: 100vh;
+  height: 100%;
   width: 100%;
-  background: url(./images/BRS_Resort_Grounds_2700x1500_20.jpg);
   background-size: max-content;
   background-repeat: no-repeat;
 }
@@ -18,14 +17,14 @@
   font-size: 30px;
   font-weight: 700;
   text-transform: uppercase;
-  padding: 160px 20% 10px;
+  padding: 160px 10% 10px;
 }
 
 p {
   font-family: 'Open Sans', sans-serif;
   font-weight: 100;
-  font-size: 1rem;
-  padding: 10px 22% 10px;
+  font-size: 1.1rem;
+  padding: 10px 15% 10px;
 }
 
 @media(max-width: 900px) {

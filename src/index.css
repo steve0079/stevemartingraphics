@@ -1,10 +1,7 @@
-/* @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap'); */
-
 @font-face {
     font-family: "Open Sans";
-    src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"),
-         url("/fonts/OpenSans-Regular-webfont.woff") format("woff");
-  }
+    src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"), url("/fonts/OpenSans-Regular-webfont.woff") format("woff");
+}
 
 html {
     height: 100%;
@@ -14,4 +11,9 @@ body {
     margin: 0;
     padding: 0;
     height: 100%;
+    background: rgba(81, 97, 124, .1);
+    /* background: url(./images/BRS_Resort_Grounds_2700x1500_20.jpg); */
+    /* background-repeat: no-repeat; */
+    background-size: 5000px;
+    background-position: center;
 }

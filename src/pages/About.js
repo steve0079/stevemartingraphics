@@ -1,8 +1,9 @@
 import React from 'react'
+import './about.css'
 
 const About = () => {
   return (
-    <div>
+    <div className="aboutContainer">
       <h1 className="title">About Steve Martin</h1>
       <p className="body-text">This is Steve Martin's website with some details about him. Steve has extensive experience with print and digital design for the hospitality, travel & Leisure, and food & beverage industries.</p>
       <p>Steve is wired to work in a creative, fast-paced environment producing quality work with the most efficient turnaround time. Steve has helped develop a variety of brand and corporate identities through the marketing elements of print advertisements, sales collateral, direct mail, websites, landing pages, banner ads, email blasts and social media.</p>

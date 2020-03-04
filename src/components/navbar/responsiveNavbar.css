@@ -6,7 +6,7 @@
     height: 100px;
     font-family: 'Open Sans', sans-serif;
     padding: 0 20px;
-    z-index: 300;
+    z-index: 600;
 }
 
 .toolbar_navigation {
@@ -64,13 +64,13 @@
         letter-spacing: 1px;
         color: white;
         text-decoration: none;
-        margin: 10px;
     }
     .toolbar_logoType {
         font-size: .82rem;
-        line-height: .7rem;
+        line-height: .2rem;
         letter-spacing: .75px;
-        padding: 0 10px;
+        padding: 0 15px;
+        margin-bottom: 15px;
     }
     .toolbar_navigation_items {
         display: none;

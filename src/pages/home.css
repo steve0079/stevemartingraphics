@@ -4,19 +4,20 @@
     justify-content: center;
     flex-wrap: wrap;
     padding: 200px 0 40px;
+    height: 100vh;
 }
 
 .container {
     position: relative;
-    width: 250px;
+    width: auto;
     margin: 30px;
 }
 
 .image {
     display: block;
-    width: auto;
+    width: 380px;
     height: auto;
-    border-radius: 0 60px 0 60px;
+    border-radius: 0 40px 0 40px;
     box-shadow: 0 10px 20px rgb(81, 97, 124);
     background-color: rgb(238, 232, 222);
 }
@@ -30,7 +31,7 @@
     background-color: rgba(255, 255, 255, .75);
     overflow: hidden;
     border: none;
-    border-radius: 0 60px 0 60px;
+    border-radius: 0 40px 0 40px;
     width: 100%;
     height: 0;
     transition: .5s ease;
