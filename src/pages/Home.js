@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 import './home.css'
 
 import printIcon from '../images/print_icon.jpg'
@@ -14,35 +15,35 @@ const Home = (props) => {
     <div className="main_container">
       <div className="container">
         <img src={printIcon} alt="" className="image" />
-        <a href='/print'>
+        <Link to='/print'>
           <button className="overlay">
             <div className="category_header">print</div>
           </button>
-        </a>
+        </Link>
       </div>
       <div className="container">
         <img src={digitalIcon} alt="" className="image" />
-        <a href='/digital'>
+        <Link to='/digital'>
           <button className="overlay">
             <div className="category_header">digital</div>
           </button>
-        </a>
+        </Link>
       </div>
       <div className="container">
         <img src={retouchIcon} alt="" className="image" />
-        <a href='/retouching'>
+        <Link to='/retouching'>
           <button className="overlay">
             <div className="category_header">retouching</div>
           </button>
-        </a>
+        </Link>
       </div>
       <div className="container">
         <img src={logoIcon} alt="" className="image" />
-        <a href='/logo_design'>
+        <Link to='/logo_design'>
           <button className="overlay">
             <div className="category_header">logos</div>
           </button>
-        </a>
+        </Link>
       </div>
     </div>
   )

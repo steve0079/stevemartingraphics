@@ -37,10 +37,10 @@ function App() {
   return (
     <div className="App_Container">
       <div style={{ height: '100%' }}>
+        <Router>
         <Navbar drawerClickHandler={drawerToggleClickHandler} />
         <SideDrawer show={state.sideDrawerOpen} />
         {backdrop}
-        <Router>
           <Switch>
             <Route exact path='/' component={Home} />
             <Route exact path='/print' component={Print} />
