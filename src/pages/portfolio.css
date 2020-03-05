@@ -11,7 +11,6 @@
     width: 320px;
     height: 300px;
     margin: 20px 20px 60px;
-    display: flex;
 }
 
 .theCard {
@@ -28,13 +27,11 @@
     transition-delay: 400ms;
 }
 
-.theCard:active {}
-
 .theFront {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
     position: absolute;
     width: 100%;
     height: 100%;
@@ -65,7 +62,7 @@
 }
 
 .theLogo {
-    max-width: 300px;
+    max-width: 260px;
 }
 
 .mas {
@@ -73,15 +70,15 @@
 }
 
 .jwst {
-    order: 4
-}
-
-.epsonCedia {
     order: 5
 }
 
-.vcr {
+.epsonCedia {
     order: 6
+}
+
+.vcr {
+    order: 2
 }
 
 .kkr {
@@ -89,7 +86,7 @@
 }
 
 .trac {
-    order: 2
+    order: 3
 }
 
 .masBB {
@@ -105,7 +102,7 @@
 }
 
 .airFlite {
-    order: 3
+    order: 4
 }
 
 .tps {
