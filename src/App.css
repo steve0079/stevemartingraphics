@@ -18,6 +18,15 @@
   padding: 160px 10% 10px;
 }
 
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: rgb(9, 32, 72);
+  text-transform: uppercase;
+  padding-top: 30px;
+}
+
 p {
   font-family: 'Open Sans', sans-serif;
   font-weight: 100;

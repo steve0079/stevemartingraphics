@@ -33,7 +33,7 @@ const Print = () => {
           <div className="theCard">
             <div className="theFront">
               <img src={masLogo} alt="" className="theLogo" />
-              <p>Print Advertising</p>
+              <h2>Print Advertising</h2>
             </div>
             <div className="theBack">
               <img src={masAd} alt="" className="theImage" />
@@ -45,7 +45,7 @@ const Print = () => {
           <div className="theCard">
             <div className="theFront">
               <img src={ngLogo} alt="" className="theLogo" />
-              <p>Brochures</p>
+              <h2>Brochures</h2>
             </div>
             <div className="theBack">
               <img src={jwst} alt="" className="theImage" />
@@ -57,7 +57,7 @@ const Print = () => {
           <div className="theCard">
             <div className="theFront">
               <img src={vcrLogo} alt="" className="theLogo" />
-              <p>Print Advertising</p>
+              <h2>Print Advertising</h2>
             </div>
             <div className="theBack">
               <img src={vcr} alt="" className="theImage" />
@@ -69,7 +69,7 @@ const Print = () => {
           <div className="theCard">
             <div className="theFront">
               <img src={kkrLogo} alt="" className="theLogo" />
-              <p>Displays</p>
+              <h2>Displays</h2>
             </div>
             <div className="theBack">
               <img src={kkr} alt="" className="theImage" />
@@ -81,7 +81,7 @@ const Print = () => {
           <div className="theCard">
             <div className="theFront">
               <img src={tannersLogo} alt="" className="theLogo" />
-              <p>Displays</p>
+              <h2>Displays</h2>
             </div>
             <div className="theBack">
               <img src={tanners} alt="" className="theImage" />
@@ -93,7 +93,7 @@ const Print = () => {
           <div className="theCard">
             <div className="theFront">
               <img src={toyotaLogo} alt="" className="theLogo" />
-              <p>Outdoor</p>
+              <h2>Outdoor</h2>
             </div>
             <div className="theBack">
               <img src={tps} alt="" className="theImage" />
@@ -105,7 +105,7 @@ const Print = () => {
           <div className="theCard">
             <div className="theFront">
               <img src={masLogo} alt="" className="theLogo" />
-              <p>Outdoor</p>
+              <h2>Outdoor</h2>
             </div>
             <div className="theBack">
               <img src={masBB} alt="" className="theImage" />
@@ -117,7 +117,7 @@ const Print = () => {
           <div className="theCard">
             <div className="theFront">
               <img src={folsomLogo} alt="" classname="theLogo" />
-              <p>Displays</p>
+              <h2>Displays</h2>
             </div>
             <div className="theBack">
               <img src={folsom} alt="" className="theImage" />
@@ -129,7 +129,7 @@ const Print = () => {
           <div className="theCard">
             <div className="theFront">
               <img src={afLogo} alt="" className="theLogo" />
-              <p>Direct Mail</p>
+              <h2>Direct Mail</h2>
             </div>
             <div className="theBack">
               <img src={airFlite} alt="" className="theImage" />
@@ -141,7 +141,7 @@ const Print = () => {
           <div className="theCard">
             <div className="theFront">
               <img src={toyotaLogo} alt="" className="theLogo" />
-              <p>Direct Mail</p>
+              <h2>Direct Mail</h2>
             </div>
             <div className="theBack">
               <img src={trac} alt="" className="theImage" />
@@ -153,7 +153,7 @@ const Print = () => {
           <div className="theCard">
             <div className="theFront">
               <img src={epsonLogo} alt="" className="theLogo" />
-              <p>Brochures</p>
+              <h2>Brochures</h2>
             </div>
             <div className="theBack">
               <img src={epsonCedia} alt="" className="theImage" />
