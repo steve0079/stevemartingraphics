@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react'
 import './portfolio.css'
 
-import masAd from '../images/MASawakenAd.jpg'
+import masAd from '../images/masAd.jpg'
 import masLogo from '../images/masLogo.png'
 import jwst from '../images/JWST_BRO.png'
 import ngLogo from '../images/northropGrummanLogo.png'
