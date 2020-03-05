@@ -11,9 +11,7 @@ body {
     margin: 0;
     padding: 0;
     height: 100%;
-    background: rgba(81, 97, 124, .1);
-    /* background: url(./images/BRS_Resort_Grounds_2700x1500_20.jpg); */
-    /* background-repeat: no-repeat; */
+    /* background: rgba(81, 97, 124, .3); */
     background-size: 5000px;
     background-position: center;
 }
