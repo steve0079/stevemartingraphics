@@ -94,6 +94,10 @@
 }
 
 @media screen and (max-width: 479px) {
+    .main_container {
+        padding-top: 0;
+    }
+
     h3 {
         text-transform: none;
         line-height: 1.5rem;
@@ -105,12 +109,14 @@
         line-height: 60px;
     }
     .image_container {
+        order: 1;
         position: relative;
-        width: 60px;
-        height: 60px;
-        margin: 10px;
+        width: 70px;
+        height: 70px;
+        margin: 0 10px 30px;
     }
     .border-home {
+        order: 2;
         width: 90vw;
     }
 }

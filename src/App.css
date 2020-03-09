@@ -41,7 +41,6 @@ h3 {
   padding: 10px 0px 0;
 }
 
-
 p {
   font-family: 'Open Sans', sans-serif;
   font-weight: 100;
@@ -51,6 +50,10 @@ p {
 
 .fab {
   color: rgb(9, 32, 72);
+}
+
+.fab:hover {
+  color: rgb(255, 164, 27)
 }
 
 @media(max-width: 900px) {
