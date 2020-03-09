@@ -1,25 +1,25 @@
 import React from 'react'
 import MasModal from '../components/modals/print/MasModal'
+import MasOutdoorModal from '../components/modals/print/MasOutdoorModal'
 import VcrModal from '../components/modals/print/VcrModal'
+import KkrModal from '../components/modals/print/KkrModal'
+import TannersModal from '../components/modals/print/TannersModal'
+import TracModal from '../components/modals/print/TracModal'
+import TpsModal from '../components/modals/print/TpsModal'
+import AirMailModal from '../components/modals/print/AirMailModal'
+import JwstModal from '../components/modals/print/JwstModal'
+import EpsonCediaModal from '../components/modals/print/EpsonCediaModal'
+import FolsomModal from '../components/modals/print/FolsomModal'
 import './portfolio.css'
 
 import masLogo from '../images/masLogo.png'
-import jwst from '../images/JWST_BRO.png'
 import ngLogo from '../images/northropGrummanLogo.png'
 import vcrLogo from '../images/vcrLogo.png'
-import kkr from '../images/KKR_Wall_Banner.jpg'
 import kkrLogo from '../images/kkrLogo.png'
-import tanners from '../images/PHS_Tanners_Tradeshow_Banner.jpg'
 import tannersLogo from '../images/tannersLogo.png'
-import tps from '../images/toyotaOilPoster.jpg'
-import masBB from '../images/MASoutdoor.jpg'
-import folsom from '../images/Folsom1.jpg'
 import calParks from '../images/calStateParksLogo.png'
-import airFlite from '../images/AirFliteMailer.png'
 import afLogo from '../images/airFliteLogo.png'
-import trac from '../images/TRAC_mailer.png'
 import toyotaLogo from '../images/toyotaLogo.png'
-import epsonCedia from '../images/epson_Cedia.png'
 import epsonLogo from '../images/epsonLogo.png'
 
 
@@ -49,7 +49,7 @@ const Print = (props) => {
               <h2>Brochures</h2>
             </div>
             <div className="theBack">
-              <img src={jwst} alt="" className="theImage" />
+              <JwstModal />
             </div>
           </div>
         </div>
@@ -73,7 +73,7 @@ const Print = (props) => {
               <h2>Displays</h2>
             </div>
             <div className="theBack">
-              <img src={kkr} alt="" className="theImage" />
+              <KkrModal />
             </div>
           </div>
         </div>
@@ -85,7 +85,7 @@ const Print = (props) => {
               <h2>Displays</h2>
             </div>
             <div className="theBack">
-              <img src={tanners} alt="" className="theImage" />
+              <TannersModal />
             </div>
           </div>
         </div>
@@ -94,10 +94,10 @@ const Print = (props) => {
           <div className="theCard">
             <div className="theFront">
               <img src={toyotaLogo} alt="" className="theLogo" />
-              <h2>Outdoor</h2>
+              <h2>Posters</h2>
             </div>
             <div className="theBack">
-              <img src={tps} alt="" className="theImage" />
+              <TpsModal />
             </div>
           </div>
         </div>
@@ -109,7 +109,7 @@ const Print = (props) => {
               <h2>Outdoor</h2>
             </div>
             <div className="theBack">
-              <img src={masBB} alt="" className="theImage" />
+              <MasOutdoorModal />
             </div>
           </div>
         </div>
@@ -121,7 +121,7 @@ const Print = (props) => {
               <h2>Displays</h2>
             </div>
             <div className="theBack">
-              <img src={folsom} alt="" className="theImage" />
+              <FolsomModal />
             </div>
           </div>
         </div>
@@ -133,7 +133,7 @@ const Print = (props) => {
               <h2>Direct Mail</h2>
             </div>
             <div className="theBack">
-              <img src={airFlite} alt="" className="theImage" />
+              <AirMailModal />
             </div>
           </div>
         </div>
@@ -145,7 +145,7 @@ const Print = (props) => {
               <h2>Direct Mail</h2>
             </div>
             <div className="theBack">
-              <img src={trac} alt="" className="theImage" />
+              <TracModal />
             </div>
           </div>
         </div>
@@ -157,7 +157,7 @@ const Print = (props) => {
               <h2>Brochures</h2>
             </div>
             <div className="theBack">
-              <img src={epsonCedia} alt="" className="theImage" />
+              <EpsonCediaModal />
             </div>
           </div>
         </div>

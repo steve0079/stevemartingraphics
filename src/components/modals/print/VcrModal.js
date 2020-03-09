@@ -18,7 +18,7 @@ const VcrModal = (props) => {
 
     return (
         <div>
-            <button onClick={showModal} Display Modal><img src={vcr} alt="" className="modalButton" /></button>
+            <div onClick={showModal} Display Modal><img src={vcr} alt="" className="modalButton" /></div>
             <Modal show={isOpen} onHide={hideModal}>
                 <Modal.Header closeButton >
                     <Modal.Title>Vista Collina Resort</Modal.Title>
