@@ -59,7 +59,7 @@
     bottom: 100%;
     left: 0;
     top: 0;
-    background-color: rgba(255, 255, 255, .8);
+    background: rgba(0, 0, 0, 0.5);
     overflow: hidden;
     border: none;
     border-radius: 50px;
@@ -83,7 +83,7 @@
     font-family: 'Open Sans', sans-serif;
     text-align: center;
     text-transform: uppercase;
-    color: rgb(9, 32, 72);
+    color: rgb(255, 164, 27);
     font-size: 12px;
     position: absolute;
     top: 50%;
@@ -104,6 +104,9 @@
         letter-spacing: 0px;
         padding: 10px 0px 0;
     }
+    .category_header {
+        font-size: 10px;
+    }
     .name {
         font-size: 60px;
         line-height: 60px;
@@ -113,7 +116,7 @@
         position: relative;
         width: 70px;
         height: 70px;
-        margin: 0 10px 30px;
+        margin: -20px 10px 30px;
     }
     .border-home {
         order: 2;
