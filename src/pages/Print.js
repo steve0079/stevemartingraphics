@@ -1,11 +1,11 @@
-import React, { Fragment } from 'react'
+import React from 'react'
+import MasModal from '../components/modals/print/MasModal'
+import VcrModal from '../components/modals/print/VcrModal'
 import './portfolio.css'
 
-import masAd from '../images/masAd.jpg'
 import masLogo from '../images/masLogo.png'
 import jwst from '../images/JWST_BRO.png'
 import ngLogo from '../images/northropGrummanLogo.png'
-import vcr from '../images/VC_BayAreaNewspaper_Ad.jpg'
 import vcrLogo from '../images/vcrLogo.png'
 import kkr from '../images/KKR_Wall_Banner.jpg'
 import kkrLogo from '../images/kkrLogo.png'
@@ -14,7 +14,7 @@ import tannersLogo from '../images/tannersLogo.png'
 import tps from '../images/toyotaOilPoster.jpg'
 import masBB from '../images/MASoutdoor.jpg'
 import folsom from '../images/Folsom1.jpg'
-import folsomLogo from '../images/caiforniaStateParksLogo.png'
+import calParks from '../images/calStateParksLogo.png'
 import airFlite from '../images/AirFliteMailer.png'
 import afLogo from '../images/airFliteLogo.png'
 import trac from '../images/TRAC_mailer.png'
@@ -23,20 +23,21 @@ import epsonCedia from '../images/epson_Cedia.png'
 import epsonLogo from '../images/epsonLogo.png'
 
 
-const Print = () => {
-  return (
-    <Fragment>
-      <h1 className="title">Print Samples:</h1>
-      <div className="portfolio">
+const Print = (props) => {
 
+
+  return (
+    <div className="print_container">
+      <h1 className="title">The Work:</h1>
+      <div className="portfolio">
         <div className="portfolio_container mas">
           <div className="theCard">
             <div className="theFront">
               <img src={masLogo} alt="" className="theLogo" />
-              <h2>Print Advertising</h2>
+              <h2>Advertising</h2>
             </div>
             <div className="theBack">
-              <img src={masAd} alt="" className="theImage" />
+              <MasModal />
             </div>
           </div>
         </div>
@@ -57,10 +58,10 @@ const Print = () => {
           <div className="theCard">
             <div className="theFront">
               <img src={vcrLogo} alt="" className="theLogo" />
-              <h2>Print Advertising</h2>
+              <h2>Advertising</h2>
             </div>
             <div className="theBack">
-              <img src={vcr} alt="" className="theImage" />
+            <VcrModal />
             </div>
           </div>
         </div>
@@ -116,7 +117,7 @@ const Print = () => {
         <div className="portfolio_container folsom">
           <div className="theCard">
             <div className="theFront">
-              <img src={folsomLogo} alt="" classname="theLogo" />
+              <img src={calParks} alt="" className="theLogo" />
               <h2>Displays</h2>
             </div>
             <div className="theBack">
@@ -162,8 +163,8 @@ const Print = () => {
         </div>
       </div>
 
-    </Fragment>
+    </div>
   )
 }
 
-export default Print
+export default Print;

@@ -1,10 +1,10 @@
 .toolbar {
+    font-family: 'Open Sans', sans-serif;
     position: fixed;
     width: 100%;
-    background: rgb(81, 97, 124);
-    box-shadow: 0 0 10px rgb(0, 0, 0);
+    background: rgb(0, 0, 0);
+    box-shadow: 0 0 2px rgb(255, 255, 255);
     height: 100px;
-    font-family: 'Open Sans', sans-serif;
     padding: 0 20px;
     z-index: 600;
 }
@@ -25,19 +25,22 @@
     margin-left: 1rem;
     font-size: 2.7rem;
     letter-spacing: 1.25px;
-    color: white;
+    line-height: 50px;
+    color: #fff;
     text-decoration: none;
     text-transform: uppercase;
 }
 
 .toolbar_logoType {
     font-size: 1rem;
+    line-height: 15px;
     letter-spacing: .5px;
 }
 
 .toolbar_navigation_items .item {
     font-size: .75rem;
-    color: white;
+    font-weight: 500;
+    color: #fff;
     text-decoration: none;
     padding: 0 .75rem;
 }
@@ -53,7 +56,7 @@
 @media (max-width: 900px) {
     .toolbar {
         height: 70px;
-        position: relative;
+        position: fixed;
     }
     .toolbar_logo {
         display: flex;
@@ -62,7 +65,7 @@
         flex-wrap: wrap;
         font-size: 2.3rem;
         letter-spacing: 1px;
-        color: white;
+        color: rgb(255, 255, 255);
         text-decoration: none;
     }
     .toolbar_logoType {

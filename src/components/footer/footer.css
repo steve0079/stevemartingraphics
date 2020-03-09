@@ -5,13 +5,14 @@
       align-items: center;
       height: 90px;
       width: 100%;
-      background-color: rgb(81, 97, 124);
+      background-color: rgb(0, 0, 0);
       z-index: 500;
     }
 
     .footer p {
       color: white;
       font-family: 'Open Sans', sans-serif;
+      padding: 0;
     }
 
     .footer a {
@@ -26,8 +27,3 @@
       font-size: 12px;
     }
 
-    @media(max-width: 768px) {
-      .footer {
-        z-index: 300;
-      }
-    }

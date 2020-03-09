@@ -13,38 +13,48 @@ const Home = (props) => {
 
   return (
     <div className="main_container">
-      <div className="container">
-        <img src={printIcon} alt="" className="image" />
-        <Link to='/print'>
-          <button className="overlay">
-            <div className="category_header">print</div>
-          </button>
-        </Link>
+      <div className="border-home">
+        <h1 className="name title">Steve Martin</h1>
+        <h3>I'm a Graphic Designer and Full Stack Developer, creating effective visual identities for companies of all industries.</h3>
+        <ul className="social">
+          <li><a href="https://www.facebook.com/Steve9512" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook fa-2x"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/stevemartindeveloper-designer/" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin-in fa-2x"></i></a></li>
+        </ul>
       </div>
-      <div className="container">
-        <img src={digitalIcon} alt="" className="image" />
-        <Link to='/digital'>
-          <button className="overlay">
-            <div className="category_header">digital</div>
-          </button>
-        </Link>
-      </div>
-      <div className="container">
-        <img src={retouchIcon} alt="" className="image" />
-        <Link to='/retouching'>
-          <button className="overlay">
-            <div className="category_header">retouching</div>
-          </button>
-        </Link>
-      </div>
-      <div className="container">
-        <img src={logoIcon} alt="" className="image" />
-        <Link to='/logo_design'>
-          <button className="overlay">
-            <div className="category_header">logos</div>
-          </button>
-        </Link>
-      </div>
+      <ul className="image_links">
+        <li className="image_container">
+          <img src={printIcon} alt="" className="image" />
+          <Link to='/print'>
+            <button className="overlay">
+              <div className="category_header">print</div>
+            </button>
+          </Link>
+        </li>
+        <li className="image_container">
+          <img src={digitalIcon} alt="" className="image" />
+          <Link to='/digital'>
+            <button className="overlay">
+              <div className="category_header">digital</div>
+            </button>
+          </Link>
+        </li>
+        <li className="image_container">
+          <img src={retouchIcon} alt="" className="image" />
+          <Link to='/retouching'>
+            <button className="overlay">
+              <div className="category_header">retouching</div>
+            </button>
+          </Link>
+        </li>
+        <li className="image_container">
+          <img src={logoIcon} alt="" className="image" />
+          <Link to='/logo_design'>
+            <button className="overlay">
+              <div className="category_header">logos</div>
+            </button>
+          </Link>
+        </li>
+      </ul>
     </div>
   )
 }

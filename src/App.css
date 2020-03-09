@@ -5,6 +5,7 @@
 }
 
 .App_Container {
+  background: rgb(7, 11, 19);
   position: relative;
   height: 100%;
   width: 100%;
@@ -14,24 +15,42 @@
   font-family: 'Open Sans', sans-serif;
   font-size: 30px;
   font-weight: 700;
+  color: #fff;
   text-transform: uppercase;
   padding: 160px 10% 10px;
 }
 
 h2 {
   font-family: 'Open Sans', sans-serif;
-  font-weight: 700;
-  font-size: 1.25rem;
+  font-weight: 300;
+  font-size: 1.15rem;
   color: rgb(9, 32, 72);
   text-transform: uppercase;
-  padding-top: 30px;
+  letter-spacing: 1px;
+  padding-top: 10px;
 }
+
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 1.15rem;
+  color: rgb(9, 32, 72);
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 10px 0px 0;
+}
+
 
 p {
   font-family: 'Open Sans', sans-serif;
   font-weight: 100;
   font-size: 1.1rem;
   padding: 10px 15% 10px;
+}
+
+.fab {
+  color: rgb(9, 32, 72);
 }
 
 @media(max-width: 900px) {
