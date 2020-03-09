@@ -3,6 +3,8 @@ import Modal from 'react-bootstrap/Modal';
 import '../modals.css'
 
 import tanners from '../../../images/PHS_Tanners_Tradeshow_Banner.jpg'
+import tannersLogo from '../../../images/tannersLogo.png'
+
 
 
 const TannersModal = (props) => {

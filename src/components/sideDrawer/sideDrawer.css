@@ -35,8 +35,12 @@
     font-size: 1.2rem;
 }
 
-.side-drawer a:hover, .side-drawer a:active {
+.side-drawer a:hover {
     color: rgb(255, 164, 27);
+}
+
+.side-drawer a:active {
+    color: rgb(255, 102, 0)
 }
 
 @media (min-width: 901px) {

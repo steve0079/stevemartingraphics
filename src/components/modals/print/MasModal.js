@@ -3,6 +3,8 @@ import Modal from 'react-bootstrap/Modal';
 import '../modals.css'
 
 import masAd from '../../../images/masAd.jpg'
+import masLogo from '../../../images/masLogo.png'
+
 
 
 const MasModal = (props) => {

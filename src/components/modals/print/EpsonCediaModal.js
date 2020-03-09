@@ -3,6 +3,8 @@ import Modal from 'react-bootstrap/Modal';
 import '../modals.css'
 
 import epsonCedia from '../../../images/epson_Cedia.png'
+import epsonLogo from '../../../images/epsonLogo.png'
+
 
 const EpsonCediaModal = (props) => {
 

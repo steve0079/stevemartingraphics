@@ -3,6 +3,8 @@ import Modal from 'react-bootstrap/Modal';
 import '../modals.css'
 
 import kkr from '../../../images/KKR_Wall_Banner.jpg'
+import kkrLogo from '../../../images/kkrLogo.png'
+
 
 
 const KkrModal = (props) => {

@@ -1,4 +1,6 @@
 import React from 'react'
+
+//modalImports
 import MasModal from '../components/modals/print/MasModal'
 import MasOutdoorModal from '../components/modals/print/MasOutdoorModal'
 import VcrModal from '../components/modals/print/VcrModal'
@@ -10,8 +12,11 @@ import AirMailModal from '../components/modals/print/AirMailModal'
 import JwstModal from '../components/modals/print/JwstModal'
 import EpsonCediaModal from '../components/modals/print/EpsonCediaModal'
 import FolsomModal from '../components/modals/print/FolsomModal'
+
+//cssImports
 import './portfolio.css'
 
+//logoImports
 import masLogo from '../images/masLogo.png'
 import ngLogo from '../images/northropGrummanLogo.png'
 import vcrLogo from '../images/vcrLogo.png'
@@ -24,7 +29,6 @@ import epsonLogo from '../images/epsonLogo.png'
 
 
 const Print = (props) => {
-
 
   return (
     <div className="print_container">

@@ -3,6 +3,8 @@ import Modal from 'react-bootstrap/Modal';
 import '../modals.css'
 
 import vcr from '../../../images/VC_BayAreaNewspaper_Ad.jpg'
+import vcrLogo from '../../../images/vcrLogo.png'
+
 
 const VcrModal = (props) => {
 

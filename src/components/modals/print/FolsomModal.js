@@ -3,6 +3,8 @@ import Modal from 'react-bootstrap/Modal';
 import '../modals.css'
 
 import folsom from '../../../images/Folsom1.jpg'
+import calParks from '../../../images/calStateParksLogo.png'
+
 
 
 const FolsomModal = (props) => {

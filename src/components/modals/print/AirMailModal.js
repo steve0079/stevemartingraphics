@@ -3,6 +3,8 @@ import Modal from 'react-bootstrap/Modal';
 import '../modals.css'
 
 import airFlite from '../../../images/AirFliteMailer.png'
+import afLogo from '../../../images/airFliteLogo.png'
+
 
 const AirMailModal = (props) => {
 

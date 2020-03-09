@@ -3,6 +3,8 @@ import Modal from 'react-bootstrap/Modal';
 import '../modals.css'
 
 import tps from '../../../images/toyotaOilPoster.jpg'
+import toyotaLogo from '../../../images/toyotaLogo.png'
+
 
 
 const TpsModal = (props) => {

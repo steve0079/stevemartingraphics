@@ -1,27 +1,16 @@
-.modal_background {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: blue;
-}
-
 .modalButton {
     display: flex;
     justify-content: center;
     max-width: 260px;
     max-height: 260px;
-    box-shadow: -3px -3px 18px #fff, 3px 3px 18px #888;
 }
-
 
 .titleImage {
     text-align: center;
     max-width: 466px;
-    max-height: 650px;
 }
 
-@media screen and (max-width: 600px){
-
+@media (max-width: 900px){
     .modalButton {
         display: flex;
         justify-content: center;

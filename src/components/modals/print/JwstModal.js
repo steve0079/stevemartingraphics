@@ -3,6 +3,8 @@ import Modal from 'react-bootstrap/Modal';
 import '../modals.css'
 
 import jwst from '../../../images/JWST_BRO.png'
+import ngLogo from '../../../images/northropGrummanLogo.png'
+
 
 const JwstModal = (props) => {
 
