@@ -17,8 +17,8 @@ const Home = (props) => {
         <h1 className="name title">Steve Martin</h1>
         <h3>I'm a Graphic Designer and Full Stack Developer, creating effective visual identities for companies of all industries.</h3>
         <ul className="social">
-          <li><a href="https://www.facebook.com/Steve9512" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook fa-2x"></i></a></li>
-          <li><a href="https://www.linkedin.com/in/stevemartindeveloper-designer/" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin-in fa-2x"></i></a></li>
+          <li><a href="https://www.facebook.com/Steve9512" target="_self" rel="noopener noreferrer"><i className="fab fa-facebook fa-2x"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/stevemartindeveloper-designer/" target="_self" rel="noopener noreferrer"><i className="fab fa-linkedin-in fa-2x"></i></a></li>
         </ul>
       </div>
       <ul className="image_links">
