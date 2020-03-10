@@ -1,6 +1,12 @@
+.print_container {
+    background: url(../images/portfolioBackground.jpg) no-repeat top center;
+    background-size: 100% 110%;
+}
+
 .portfolio {
     display: flex;
     justify-content: center;
+    align-items: flex-start;
     flex-wrap: wrap;
     height: 100%;
 }
@@ -109,7 +115,7 @@
     order: 11
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 600px) {
     .print_container {
         padding-top: 60px;
     }
@@ -133,5 +139,10 @@
     .theBack {
         transform: rotateY(0deg);
     }
+}
 
+@media (min-width: 601px) {
+    .print_container {
+        padding-top: 100px;
+    }
 }
