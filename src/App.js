@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import ScrollToTop from './utils/ScrollToTop'
 import './App.css';
 
 import Navbar from './components/navbar/responsiveNavbar';
@@ -38,17 +39,19 @@ function App() {
     <div className="App_Container">
       <div style={{ height: '100%' }}>
         <Router>
-        <Navbar drawerClickHandler={drawerToggleClickHandler} />
-        <SideDrawer show={state.sideDrawerOpen} />
-        {backdrop}
-          <Switch>
-            <Route exact path='/' component={Home} />
-            <Route exact path='/print' component={Print} />
-            <Route exact path='/digital' component={Digital} />
-            <Route exact path='/retouching' component={Retouching} />
-            <Route exact path='/logo_design' component={LogoDesign} />
-            <Route exact path='/about' component={About} />
-          </Switch>
+          <ScrollToTop>
+            <Navbar drawerClickHandler={drawerToggleClickHandler} />
+            <SideDrawer show={state.sideDrawerOpen} />
+            {backdrop}
+            <Switch>
+              <Route exact path='/' component={Home} />
+              <Route exact path='/print' component={Print} />
+              <Route exact path='/digital' component={Digital} />
+              <Route exact path='/retouching' component={Retouching} />
+              <Route exact path='/logo_design' component={LogoDesign} />
+              <Route exact path='/about' component={About} />
+            </Switch>
+          </ScrollToTop>
         </Router>
       </div>
       <Footer />
