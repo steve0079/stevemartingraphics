@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import Modal from 'react-bootstrap/Modal';
 import '../modals.css'
 
@@ -28,7 +29,9 @@ const NscDigitalModal = (props) => {
                     <Modal.Title>Novel Spirits Collection</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                    <img src={nscWeb} alt="" className="titleImage" />
+                    <Link to="//stevemartingraphics.com/novel_spirits_4" target="_blank">
+                        <img src={nscWeb} alt="" className="titleImage" />
+                    </Link>
                 </Modal.Body>
                 <Modal.Footer>
                     <button onClick={hideModal}>Close</button>

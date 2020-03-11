@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import Modal from 'react-bootstrap/Modal';
 import '../modals.css'
 
@@ -28,7 +29,9 @@ const DcDigitalModal = (props) => {
                     <Modal.Title>Developer Connector</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                    <img src={devConnectWeb} alt="" className="titleImage" />
+                    <Link to="//boiling-bastion-07485.herokuapp.com" target="_blank">
+                        <img src={devConnectWeb} alt="" className="titleImage" />
+                    </Link>
                 </Modal.Body>
                 <Modal.Footer>
                     <button onClick={hideModal}>Close</button>

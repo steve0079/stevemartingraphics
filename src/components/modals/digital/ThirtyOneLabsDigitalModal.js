@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import Modal from 'react-bootstrap/Modal';
 import '../modals.css'
 
@@ -28,7 +29,9 @@ const ThirtyOneLabsDigitalModal = (props) => {
                     <Modal.Title>ThirtyOne Labs</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                    <img src={thirtyOneLabs} alt="" className="titleImage" />
+                    <Link to="//evening-crag-02390.herokuapp.com/" target="_blank">
+                        <img src={thirtyOneLabs} alt="" className="titleImage" />
+                    </Link>
                 </Modal.Body>
                 <Modal.Footer>
                     <button onClick={hideModal}>Close</button>

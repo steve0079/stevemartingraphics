@@ -72,54 +72,6 @@
     max-width: 260px;
 }
 
-.mas {
-    order: 1
-}
-
-.jwst {
-    order: 6
-}
-
-.epsonCedia {
-    order: 7
-}
-
-.vcr {
-    order: 2
-}
-
-.kkr {
-    order: 8
-}
-
-.pimco {
-    order: 5
-}
-
-.trac {
-    order: 3
-}
-
-.masBB {
-    order: 11
-}
-
-.tanners {
-    order: 10
-}
-
-.folsom {
-    order: 9
-}
-
-.airFlite {
-    order: 4
-}
-
-.tps {
-    order: 12
-}
-
 @media screen and (max-width: 700px) {
     .print_container,
     .digital_container,

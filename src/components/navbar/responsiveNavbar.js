@@ -18,7 +18,6 @@ const navbar = props => (
                 <Link to='/print' className="item">PRINT</Link>
                 <Link to='/digital' className="item">DIGITAL</Link>
                 <Link to='/retouching' className="item">RETOUCHING</Link>
-                {/* <Link to='/logo_design' className="item">LOGOS</Link> */}
                 <Link to='/about' className="item">ABOUT</Link>
             </div>
         </nav>

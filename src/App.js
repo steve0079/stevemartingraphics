@@ -15,7 +15,7 @@ import LogoDesign from './pages/LogoDesign';
 import About from './pages/About';
 
 
-function App() {
+const App = () => {
 
   const [state, setState] = useState(false)
 
@@ -29,11 +29,21 @@ function App() {
     setState({ sideDrawerOpen: false })
   }
 
+  const linkClickHandler = () => {
+    setState({ sideDrawerOpen: false })
+  }
+
   let backdrop;
+  let linkClick;
 
   if (state.sideDrawerOpen) {
     backdrop = <Backdrop click={backdropClickHandler} />
   }
+
+  if (state.sideDrawerOpen) {
+    linkClick = <SideDrawer click={linkClickHandler} />
+  }
+
 
   return (
     <div className="App_Container">
@@ -41,7 +51,7 @@ function App() {
         <Router>
           <ScrollToTop>
             <Navbar drawerClickHandler={drawerToggleClickHandler} />
-            <SideDrawer show={state.sideDrawerOpen} />
+            <SideDrawer show={state.sideDrawerOpen} close={linkClick}/>
             {backdrop}
             <Switch>
               <Route exact path='/' component={Home} />

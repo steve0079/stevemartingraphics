@@ -5,7 +5,6 @@ import './home.css'
 import printIcon from '../images/icons/print_icon.jpg'
 import digitalIcon from '../images/icons/digital_icon.jpg'
 import retouchIcon from '../images/icons/retouch_icon.jpg'
-import logoIcon from '../images/icons/logo_icon.png'
 
 
 const Home = (props) => {
@@ -46,14 +45,6 @@ const Home = (props) => {
             </button>
           </Link>
         </li>
-        {/* <li className="image_container">
-          <img src={logoIcon} alt="" className="image" />
-          <Link to='/logo_design'>
-            <button className="overlay">
-              <div className="category_header">logos</div>
-            </button>
-          </Link>
-        </li> */}
       </ul>
     </div>
   )
