@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import Modal from 'react-bootstrap/Modal';
 import '../modals.css'
 
-import masBB from '../../../images/MASoutdoor.jpg'
-import masLogo from '../../../images/masLogo.png'
+import masBB from '../../../images/print/MASoutdoor.jpg'
+// import masLogo from '../../../images/masLogo.png'
 
 
 const MasOutdoorModal = (props) => {
@@ -20,6 +20,7 @@ const MasOutdoorModal = (props) => {
 
     return (
         <div>
+            <h2 className="horizontal">Outdoor</h2>
             <div onClick={showModal} Display Modal><img src={masBB} alt="" className="modalButton" /></div>
             <Modal show={isOpen} onHide={hideModal}>
                 <Modal.Header closeButton >

@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import Modal from 'react-bootstrap/Modal';
 import '../modals.css'
 
-import epsonCedia from '../../../images/epson_Cedia.png'
-import epsonLogo from '../../../images/epsonLogo.png'
+import epsonCedia from '../../../images/print/epson_Cedia.png'
+// import epsonLogo from '../../../images/epsonLogo.png'
 
 
 const EpsonCediaModal = (props) => {
@@ -20,6 +20,7 @@ const EpsonCediaModal = (props) => {
 
     return (
         <div>
+            <h2 className="horizontal">Brochures</h2>
             <div onClick={showModal} Display Modal><img src={epsonCedia} alt="" className="modalButton" /></div>
             <Modal show={isOpen} onHide={hideModal}>
                 <Modal.Header closeButton >

@@ -1,6 +1,9 @@
-.print_container {
+.print_container,
+.digital_container {
     background: url(../images/portfolioBackground.jpg) no-repeat top center;
     background-size: 100% 110%;
+    padding-top: 100px;
+
 }
 
 .portfolio {
@@ -8,7 +11,6 @@
     justify-content: center;
     align-items: flex-start;
     flex-wrap: wrap;
-    height: 100%;
 }
 
 .portfolio_container {
@@ -76,11 +78,11 @@
 }
 
 .jwst {
-    order: 5
+    order: 6
 }
 
 .epsonCedia {
-    order: 6
+    order: 7
 }
 
 .vcr {
@@ -88,7 +90,11 @@
 }
 
 .kkr {
-    order: 7
+    order: 8
+}
+
+.pimco {
+    order: 5
 }
 
 .trac {
@@ -96,15 +102,15 @@
 }
 
 .masBB {
-    order: 10
+    order: 11
 }
 
 .tanners {
-    order: 9
+    order: 10
 }
 
 .folsom {
-    order: 8
+    order: 9
 }
 
 .airFlite {
@@ -112,16 +118,17 @@
 }
 
 .tps {
-    order: 11
+    order: 12
 }
 
-@media screen and (max-width: 600px) {
-    .print_container {
+@media screen and (max-width: 700px) {
+    .print_container,
+    .digital_container {
         padding-top: 60px;
     }
 
     .portfolio_container {
-        margin: 10px 0 20px;
+        margin: 10px 10px 20px;
     }
 
     .portfolio {
@@ -141,7 +148,7 @@
     }
 }
 
-@media (min-width: 601px) {
+@media (min-width: 701px) {
     .print_container {
         padding-top: 100px;
     }

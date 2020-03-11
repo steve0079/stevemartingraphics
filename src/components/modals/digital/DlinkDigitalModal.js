@@ -2,12 +2,10 @@ import React, { useState } from 'react';
 import Modal from 'react-bootstrap/Modal';
 import '../modals.css'
 
-import tanners from '../../../images/print/PHS_Tanners_Tradeshow_Banner.jpg'
-// import tannersLogo from '../../../images/tannersLogo.png'
+import dLinkLanding from '../../../images/digital/dLinkLanding.jpg'
 
 
-
-const TannersModal = (props) => {
+const DlinkDigitalModal = (props) => {
 
     const [isOpen, setIsOpen] = useState(false);
 
@@ -21,13 +19,17 @@ const TannersModal = (props) => {
 
     return (
         <div>
-            <h2 className="horizontal">Displays</h2>
-            <div onClick={showModal} Display Modal><img src={tanners} alt="" className="modalButton" /></div>
+            <h2 className="horizontal">Landing Page</h2>
+            <div onClick={showModal} Display Modal>
+                <img src={dLinkLanding} alt="" className="modalButton" />
+            </div>
             <Modal show={isOpen} onHide={hideModal}>
                 <Modal.Header closeButton >
-                    <Modal.Title>Tanner's Restaurant</Modal.Title>
+                    <Modal.Title>D-Link Home Security</Modal.Title>
                 </Modal.Header>
-                <Modal.Body><img src={tanners} alt="" className="titleImage" /></Modal.Body>
+                <Modal.Body>
+                    <img src={dLinkLanding} alt="" className="titleImage" />
+                </Modal.Body>
                 {/* <Modal.Footer>
                     <button onClick={hideModal}>Close</button>
                 </Modal.Footer> */}
@@ -36,4 +38,4 @@ const TannersModal = (props) => {
     )
 }
 
-export default TannersModal;
+export default DlinkDigitalModal;

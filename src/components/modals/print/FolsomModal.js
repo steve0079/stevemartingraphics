@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import Modal from 'react-bootstrap/Modal';
 import '../modals.css'
 
-import folsom from '../../../images/Folsom1.jpg'
-import calParks from '../../../images/calStateParksLogo.png'
+import folsom from '../../../images/print/Folsom1.jpg'
+// import calParks from '../../../images/calStateParksLogo.png'
 
 
 
@@ -21,6 +21,7 @@ const FolsomModal = (props) => {
 
     return (
         <div>
+            <h2 className="horizontal">Displays</h2>
             <div onClick={showModal} Display Modal><img src={folsom} alt="" className="modalButton" /></div>
             <Modal show={isOpen} onHide={hideModal}>
                 <Modal.Header closeButton >

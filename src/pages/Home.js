@@ -2,10 +2,10 @@ import React from 'react';
 import { Link } from 'react-router-dom'
 import './home.css'
 
-import printIcon from '../images/print_icon.jpg'
-import digitalIcon from '../images/digital_icon.jpg'
-import retouchIcon from '../images/retouch_icon.jpg'
-import logoIcon from '../images/logo_icon.png'
+import printIcon from '../images/icons/print_icon.jpg'
+import digitalIcon from '../images/icons/digital_icon.jpg'
+import retouchIcon from '../images/icons/retouch_icon.jpg'
+import logoIcon from '../images/icons/logo_icon.png'
 
 
 const Home = (props) => {

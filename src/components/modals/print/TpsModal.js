@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import Modal from 'react-bootstrap/Modal';
 import '../modals.css'
 
-import tps from '../../../images/toyotaOilPoster.jpg'
-import toyotaLogo from '../../../images/toyotaLogo.png'
+import tps from '../../../images/print/toyotaOilPoster.jpg'
+// import toyotaLogo from '../../../images/toyotaLogo.png'
 
 
 
@@ -21,6 +21,7 @@ const TpsModal = (props) => {
 
     return (
         <div>
+            <h2 className="horizontal">Posters</h2>
             <div onClick={showModal} Display Modal><img src={tps} alt="" className="modalButton" /></div>
             <Modal show={isOpen} onHide={hideModal}>
                 <Modal.Header closeButton >

@@ -12,20 +12,22 @@ import AirMailModal from '../components/modals/print/AirMailModal'
 import JwstModal from '../components/modals/print/JwstModal'
 import EpsonCediaModal from '../components/modals/print/EpsonCediaModal'
 import FolsomModal from '../components/modals/print/FolsomModal'
+import PimcoModal from '../components/modals/print/PimcoModal'
 
 //cssImports
 import './portfolio.css'
 
 //logoImports
-import masLogo from '../images/masLogo.png'
-import ngLogo from '../images/northropGrummanLogo.png'
-import vcrLogo from '../images/vcrLogo.png'
-import kkrLogo from '../images/kkrLogo.png'
-import tannersLogo from '../images/tannersLogo.png'
-import calParks from '../images/calStateParksLogo.png'
-import afLogo from '../images/airFliteLogo.png'
-import toyotaLogo from '../images/toyotaLogo.png'
-import epsonLogo from '../images/epsonLogo.png'
+import masLogo from '../images/logo/masLogo.png'
+import ngLogo from '../images/logo/northropGrummanLogo.png'
+import vcrLogo from '../images/logo/vcrLogo.png'
+import kkrLogo from '../images/logo/kkrLogo.png'
+import tannersLogo from '../images/logo/tannersLogo.png'
+import calParks from '../images/logo/calStateParksLogo.png'
+import afLogo from '../images/logo/airFliteLogo.png'
+import toyotaLogo from '../images/logo/toyotaLogo.png'
+import epsonLogo from '../images/logo/epsonLogo.png'
+import PimcoLogo from '../images/logo/PimcoLogo.png'
 
 
 const Print = (props) => {
@@ -162,6 +164,18 @@ const Print = (props) => {
             </div>
             <div className="theBack">
               <EpsonCediaModal />
+            </div>
+          </div>
+        </div>
+
+        <div className="portfolio_container pimco">
+          <div className="theCard">
+            <div className="theFront">
+              <img src={PimcoLogo} alt="" className="theLogo" />
+              <h2>Books</h2>
+            </div>
+            <div className="theBack">
+              <PimcoModal />
             </div>
           </div>
         </div>

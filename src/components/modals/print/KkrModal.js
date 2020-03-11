@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import Modal from 'react-bootstrap/Modal';
 import '../modals.css'
 
-import kkr from '../../../images/KKR_Wall_Banner.jpg'
-import kkrLogo from '../../../images/kkrLogo.png'
+import kkr from '../../../images/print/KKR_Wall_Banner.jpg'
+// import kkrLogo from '../../../images/kkrLogo.png'
 
 
 
@@ -21,6 +21,7 @@ const KkrModal = (props) => {
 
     return (
         <div>
+            <h2 className="horizontal">Displays</h2>
             <div onClick={showModal} Display Modal><img src={kkr} alt="" className="modalButton" /></div>
             <Modal show={isOpen} onHide={hideModal}>
                 <Modal.Header closeButton >

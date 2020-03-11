@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import Modal from 'react-bootstrap/Modal';
 import '../modals.css'
 
-import trac from '../../../images/TRAC_mailer.png'
-import toyotaLogo from '../../../images/toyotaLogo.png'
+import trac from '../../../images/print/TRAC_mailer.png'
+// import toyotaLogo from '../../../images/toyotaLogo.png'
 
 
 const TracModal = (props) => {
@@ -20,7 +20,10 @@ const TracModal = (props) => {
 
     return (
         <div>
-            <div onClick={showModal} Display Modal><img src={trac} alt="" className="modalButton" /></div>
+                <h2 className="horizontal">Direct Mail</h2>
+            <div onClick={showModal} Display Modal>
+                <img src={trac} alt="" className="modalButton" />
+            </div>
             <Modal show={isOpen} onHide={hideModal}>
                 <Modal.Header closeButton >
                     <Modal.Title>Toyota Rent-a-Car</Modal.Title>

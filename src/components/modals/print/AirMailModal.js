@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import Modal from 'react-bootstrap/Modal';
 import '../modals.css'
 
-import airFlite from '../../../images/AirFliteMailer.png'
-import afLogo from '../../../images/airFliteLogo.png'
+import airFlite from '../../../images//print/AirFliteMailer.png'
+// import afLogo from '../../../images/airFliteLogo.png'
 
 
 const AirMailModal = (props) => {
@@ -20,7 +20,10 @@ const AirMailModal = (props) => {
 
     return (
         <div>
-            <div onClick={showModal} Display Modal><img src={airFlite} alt="" className="modalButton" /></div>
+            <h2 className="horizontal">Direct Mail</h2>
+            <div onClick={showModal} Display Modal>
+                <img src={airFlite} alt="" className="modalButton" />
+            </div>
             <Modal show={isOpen} onHide={hideModal}>
                 <Modal.Header closeButton >
                     <Modal.Title>AirFlite Direct Mail</Modal.Title>

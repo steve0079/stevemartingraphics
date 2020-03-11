@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import Modal from 'react-bootstrap/Modal';
 import '../modals.css'
 
-import jwst from '../../../images/JWST_BRO.png'
-import ngLogo from '../../../images/northropGrummanLogo.png'
+import jwst from '../../../images/print/JWST_BRO.png'
+// import ngLogo from '../../../images/northropGrummanLogo.png'
 
 
 const JwstModal = (props) => {
@@ -20,6 +20,7 @@ const JwstModal = (props) => {
 
     return (
         <div>
+            <h2 className="horizontal">Brochures</h2>
             <div onClick={showModal} Display Modal><img src={jwst} alt="" className="modalButton" /></div>
             <Modal show={isOpen} onHide={hideModal}>
                 <Modal.Header closeButton >
