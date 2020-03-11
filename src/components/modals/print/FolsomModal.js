@@ -3,7 +3,6 @@ import Modal from 'react-bootstrap/Modal';
 import '../modals.css'
 
 import folsom from '../../../images/print/Folsom1.jpg'
-// import calParks from '../../../images/calStateParksLogo.png'
 
 
 
@@ -28,9 +27,9 @@ const FolsomModal = (props) => {
                     <Modal.Title>Folsom Water Museum</Modal.Title>
                 </Modal.Header>
                 <Modal.Body><img src={folsom} alt="" className="titleImage" /></Modal.Body>
-                {/* <Modal.Footer>
+                <Modal.Footer>
                     <button onClick={hideModal}>Close</button>
-                </Modal.Footer> */}
+                </Modal.Footer>
             </Modal>
         </div>
     )

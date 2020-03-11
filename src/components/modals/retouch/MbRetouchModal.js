@@ -27,9 +27,9 @@ const MbRetouchModal = (props) => {
                     <Modal.Title>Melfred Borzall</Modal.Title>
                 </Modal.Header>
                 <Modal.Body><img src={mbAfter} alt="" className="titleImage" /></Modal.Body>
-                {/* <Modal.Footer>
+                <Modal.Footer>
                     <button onClick={hideModal}>Close</button>
-                </Modal.Footer> */}
+                </Modal.Footer>
             </Modal>
         </div>
     )

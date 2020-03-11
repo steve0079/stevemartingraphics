@@ -3,7 +3,6 @@ import Modal from 'react-bootstrap/Modal';
 import '../modals.css'
 
 import vcr from '../../../images/print/VC_BayAreaNewspaper_Ad.jpg'
-// import vcrLogo from '../../../images/vcrLogo.png'
 
 
 const VcrModal = (props) => {
@@ -23,15 +22,15 @@ const VcrModal = (props) => {
             <h2 className="horizontal">Advertising</h2>
             <div onClick={showModal} Display Modal>
                 <img src={vcr} alt="" className="modalButton" />
-                </div>
+            </div>
             <Modal show={isOpen} onHide={hideModal}>
                 <Modal.Header closeButton >
                     <Modal.Title>Vista Collina Resort</Modal.Title>
                 </Modal.Header>
                 <Modal.Body><img src={vcr} alt="" className="titleImage" /></Modal.Body>
-                {/* <Modal.Footer>
+                <Modal.Footer>
                     <button onClick={hideModal}>Close</button>
-                </Modal.Footer> */}
+                </Modal.Footer>
             </Modal>
         </div>
     )

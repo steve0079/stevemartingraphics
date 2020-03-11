@@ -26,9 +26,7 @@
     width: 100%;
     height: 100%;
     transform-style: preserve-3d;
-    transition: all 0.8s ease;
-    cursor: pointer;
-    
+    transition: all 0.8s ease;    
 }
 
 .theCard:hover {
@@ -124,7 +122,8 @@
 
 @media screen and (max-width: 700px) {
     .print_container,
-    .digital_container {
+    .digital_container,
+    .retouch_container {
         padding-top: 60px;
     }
 

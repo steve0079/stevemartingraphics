@@ -9,6 +9,8 @@ const sideDrawer = props => {
 
     if (props.show) {
         drawerClasses = 'side-drawer open';
+    } else {
+        drawerClasses = 'side-drawer'
     }
 
     return (
@@ -18,7 +20,7 @@ const sideDrawer = props => {
                 <li><Link to='/print'>PRINT</Link></li>
                 <li><Link to='/digital'>DIGITAL</Link></li>
                 <li><Link to='/retouching'>RETOUCHING</Link></li>
-                <li><Link to='/logo_design'>LOGOS</Link></li>
+                {/* <li><Link to='/logo_design'>LOGOS</Link></li> */}
                 <li><Link to='/about'>ABOUT</Link></li>
             </ul>
         </nav>

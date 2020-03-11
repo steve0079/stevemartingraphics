@@ -46,14 +46,14 @@ const Home = (props) => {
             </button>
           </Link>
         </li>
-        <li className="image_container">
+        {/* <li className="image_container">
           <img src={logoIcon} alt="" className="image" />
           <Link to='/logo_design'>
             <button className="overlay">
               <div className="category_header">logos</div>
             </button>
           </Link>
-        </li>
+        </li> */}
       </ul>
     </div>
   )

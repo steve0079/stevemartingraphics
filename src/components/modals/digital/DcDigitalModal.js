@@ -30,9 +30,9 @@ const DcDigitalModal = (props) => {
                 <Modal.Body>
                     <img src={devConnectWeb} alt="" className="titleImage" />
                 </Modal.Body>
-                {/* <Modal.Footer>
+                <Modal.Footer>
                     <button onClick={hideModal}>Close</button>
-                </Modal.Footer> */}
+                </Modal.Footer>
             </Modal>
         </div>
     )

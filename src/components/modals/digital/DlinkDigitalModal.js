@@ -30,9 +30,9 @@ const DlinkDigitalModal = (props) => {
                 <Modal.Body>
                     <img src={dLinkLanding} alt="" className="titleImage" />
                 </Modal.Body>
-                {/* <Modal.Footer>
+                <Modal.Footer>
                     <button onClick={hideModal}>Close</button>
-                </Modal.Footer> */}
+                </Modal.Footer>
             </Modal>
         </div>
     )

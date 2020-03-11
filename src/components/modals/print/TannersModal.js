@@ -3,7 +3,6 @@ import Modal from 'react-bootstrap/Modal';
 import '../modals.css'
 
 import tanners from '../../../images/print/PHS_Tanners_Tradeshow_Banner.jpg'
-// import tannersLogo from '../../../images/tannersLogo.png'
 
 
 
@@ -28,9 +27,9 @@ const TannersModal = (props) => {
                     <Modal.Title>Tanner's Restaurant</Modal.Title>
                 </Modal.Header>
                 <Modal.Body><img src={tanners} alt="" className="titleImage" /></Modal.Body>
-                {/* <Modal.Footer>
+                <Modal.Footer>
                     <button onClick={hideModal}>Close</button>
-                </Modal.Footer> */}
+                </Modal.Footer>
             </Modal>
         </div>
     )

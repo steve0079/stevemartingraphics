@@ -3,7 +3,6 @@ import Modal from 'react-bootstrap/Modal';
 import '../modals.css'
 
 import tps from '../../../images/print/toyotaOilPoster.jpg'
-// import toyotaLogo from '../../../images/toyotaLogo.png'
 
 
 
@@ -28,9 +27,9 @@ const TpsModal = (props) => {
                     <Modal.Title>Toyota Parts & Service</Modal.Title>
                 </Modal.Header>
                 <Modal.Body><img src={tps} alt="" className="titleImage" /></Modal.Body>
-                {/* <Modal.Footer>
+                <Modal.Footer>
                     <button onClick={hideModal}>Close</button>
-                </Modal.Footer> */}
+                </Modal.Footer>
             </Modal>
         </div>
     )

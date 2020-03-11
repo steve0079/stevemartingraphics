@@ -3,7 +3,6 @@ import Modal from 'react-bootstrap/Modal';
 import '../modals.css'
 
 import kkr from '../../../images/print/KKR_Wall_Banner.jpg'
-// import kkrLogo from '../../../images/kkrLogo.png'
 
 
 
@@ -28,9 +27,9 @@ const KkrModal = (props) => {
                     <Modal.Title>K'oa Kea Resort & Hotel</Modal.Title>
                 </Modal.Header>
                 <Modal.Body><img src={kkr} alt="" className="titleImage" /></Modal.Body>
-                {/* <Modal.Footer>
+                <Modal.Footer>
                     <button onClick={hideModal}>Close</button>
-                </Modal.Footer> */}
+                </Modal.Footer>
             </Modal>
         </div>
     )

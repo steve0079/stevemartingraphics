@@ -3,7 +3,6 @@ import Modal from 'react-bootstrap/Modal';
 import '../modals.css'
 
 import jwst from '../../../images/print/JWST_BRO.png'
-// import ngLogo from '../../../images/northropGrummanLogo.png'
 
 
 const JwstModal = (props) => {
@@ -27,9 +26,9 @@ const JwstModal = (props) => {
                     <Modal.Title>James Webb Space Telescope</Modal.Title>
                 </Modal.Header>
                 <Modal.Body><img src={jwst} alt="" className="titleImage" /></Modal.Body>
-                {/* <Modal.Footer>
+                <Modal.Footer>
                     <button onClick={hideModal}>Close</button>
-                </Modal.Footer> */}
+                </Modal.Footer>
             </Modal>
         </div>
     )

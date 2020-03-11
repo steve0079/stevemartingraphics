@@ -27,9 +27,9 @@ const MitsuRetouchModal = (props) => {
                     <Modal.Title>Mitsubishi Electric</Modal.Title>
                 </Modal.Header>
                 <Modal.Body><img src={Mitsu_After} alt="" className="titleImage" /></Modal.Body>
-                {/* <Modal.Footer>
+                <Modal.Footer>
                     <button onClick={hideModal}>Close</button>
-                </Modal.Footer> */}
+                </Modal.Footer>
             </Modal>
         </div>
     )

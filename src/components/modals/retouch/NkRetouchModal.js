@@ -27,9 +27,9 @@ const OcRetouchModal = (props) => {
                     <Modal.Title>Nihon Koden Monitoring System</Modal.Title>
                 </Modal.Header>
                 <Modal.Body><img src={nkAfter} alt="" className="titleImage" /></Modal.Body>
-                {/* <Modal.Footer>
+                <Modal.Footer>
                     <button onClick={hideModal}>Close</button>
-                </Modal.Footer> */}
+                </Modal.Footer>
             </Modal>
         </div>
     )

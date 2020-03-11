@@ -24,12 +24,12 @@ const Plc2RetouchModal = (props) => {
             <div onClick={showModal} Display Modal><img src={plc2_Before} alt="" className="modalButton" /></div>
             <Modal show={isOpen} onHide={hideModal}>
                 <Modal.Header closeButton >
-                <Modal.Title>Pacific Logistics Corporation</Modal.Title>
+                    <Modal.Title>Pacific Logistics Corporation</Modal.Title>
                 </Modal.Header>
                 <Modal.Body><img src={plc2_After} alt="" className="titleImage" /></Modal.Body>
-                {/* <Modal.Footer>
+                <Modal.Footer>
                     <button onClick={hideModal}>Close</button>
-                </Modal.Footer> */}
+                </Modal.Footer>
             </Modal>
         </div>
     )

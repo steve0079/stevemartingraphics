@@ -27,9 +27,9 @@ const OcRetouchModal = (props) => {
                     <Modal.Title>Olive Crest</Modal.Title>
                 </Modal.Header>
                 <Modal.Body><img src={ocAfter} alt="" className="titleImage" /></Modal.Body>
-                {/* <Modal.Footer>
+                <Modal.Footer>
                     <button onClick={hideModal}>Close</button>
-                </Modal.Footer> */}
+                </Modal.Footer>
             </Modal>
         </div>
     )

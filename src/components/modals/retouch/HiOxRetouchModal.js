@@ -27,9 +27,9 @@ const HiOxRetouchModal = (props) => {
                     <Modal.Title>Novus Medical HiOx Oxygen Masks</Modal.Title>
                 </Modal.Header>
                 <Modal.Body><img src={hiOxAfter} alt="" className="titleImage" /></Modal.Body>
-                {/* <Modal.Footer>
+                <Modal.Footer>
                     <button onClick={hideModal}>Close</button>
-                </Modal.Footer> */}
+                </Modal.Footer>
             </Modal>
         </div>
     )

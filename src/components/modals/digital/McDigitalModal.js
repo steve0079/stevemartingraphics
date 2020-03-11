@@ -30,9 +30,9 @@ const McDigitalModal = (props) => {
                 <Modal.Body>
                     <img src={fallTable} alt="" className="titleImage" />
                 </Modal.Body>
-                {/* <Modal.Footer>
+                <Modal.Footer>
                     <button onClick={hideModal}>Close</button>
-                </Modal.Footer> */}
+                </Modal.Footer>
             </Modal>
         </div>
     )

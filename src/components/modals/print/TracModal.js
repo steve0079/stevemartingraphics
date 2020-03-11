@@ -3,7 +3,6 @@ import Modal from 'react-bootstrap/Modal';
 import '../modals.css'
 
 import trac from '../../../images/print/TRAC_mailer.png'
-// import toyotaLogo from '../../../images/toyotaLogo.png'
 
 
 const TracModal = (props) => {
@@ -20,7 +19,7 @@ const TracModal = (props) => {
 
     return (
         <div>
-                <h2 className="horizontal">Direct Mail</h2>
+            <h2 className="horizontal">Direct Mail</h2>
             <div onClick={showModal} Display Modal>
                 <img src={trac} alt="" className="modalButton" />
             </div>
@@ -29,9 +28,9 @@ const TracModal = (props) => {
                     <Modal.Title>Toyota Rent-a-Car</Modal.Title>
                 </Modal.Header>
                 <Modal.Body><img src={trac} alt="" className="titleImage" /></Modal.Body>
-                {/* <Modal.Footer>
+                <Modal.Footer>
                     <button onClick={hideModal}>Close</button>
-                </Modal.Footer> */}
+                </Modal.Footer>
             </Modal>
         </div>
     )

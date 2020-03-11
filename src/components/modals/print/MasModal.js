@@ -3,7 +3,6 @@ import Modal from 'react-bootstrap/Modal';
 import '../modals.css'
 
 import masAd from '../../../images/print/masAd.jpg'
-// import masLogo from '../../../images/masLogo.png'
 
 
 
@@ -32,9 +31,9 @@ const MasModal = (props) => {
                 <Modal.Body>
                     <img src={masAd} alt="" className="titleImage" />
                 </Modal.Body>
-                {/* <Modal.Footer>
+                <Modal.Footer>
                     <button onClick={hideModal}>Close</button>
-                </Modal.Footer> */}
+                </Modal.Footer>
             </Modal>
         </div>
     )

@@ -3,7 +3,6 @@ import Modal from 'react-bootstrap/Modal';
 import '../modals.css'
 
 import masBB from '../../../images/print/MASoutdoor.jpg'
-// import masLogo from '../../../images/masLogo.png'
 
 
 const MasOutdoorModal = (props) => {
@@ -27,9 +26,9 @@ const MasOutdoorModal = (props) => {
                     <Modal.Title>Malaysia Airlines</Modal.Title>
                 </Modal.Header>
                 <Modal.Body><img src={masBB} alt="" className="titleImage" /></Modal.Body>
-                {/* <Modal.Footer>
+                <Modal.Footer>
                     <button onClick={hideModal}>Close</button>
-                </Modal.Footer> */}
+                </Modal.Footer>
             </Modal>
         </div>
     )

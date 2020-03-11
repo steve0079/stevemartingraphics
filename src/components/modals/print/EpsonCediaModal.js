@@ -3,7 +3,6 @@ import Modal from 'react-bootstrap/Modal';
 import '../modals.css'
 
 import epsonCedia from '../../../images/print/epson_Cedia.png'
-// import epsonLogo from '../../../images/epsonLogo.png'
 
 
 const EpsonCediaModal = (props) => {
@@ -27,9 +26,9 @@ const EpsonCediaModal = (props) => {
                     <Modal.Title>Epson Cedia Brochure</Modal.Title>
                 </Modal.Header>
                 <Modal.Body><img src={epsonCedia} alt="" className="titleImage" /></Modal.Body>
-                {/* <Modal.Footer>
+                <Modal.Footer>
                     <button onClick={hideModal}>Close</button>
-                </Modal.Footer> */}
+                </Modal.Footer>
             </Modal>
         </div>
     )

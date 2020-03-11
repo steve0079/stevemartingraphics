@@ -27,9 +27,9 @@ const HiOxRetouchModal = (props) => {
                     <Modal.Title>Aquarium of the Pacific</Modal.Title>
                 </Modal.Header>
                 <Modal.Body><img src={AofP3_After} alt="" className="titleImage" /></Modal.Body>
-                {/* <Modal.Footer>
+                <Modal.Footer>
                     <button onClick={hideModal}>Close</button>
-                </Modal.Footer> */}
+                </Modal.Footer>
             </Modal>
         </div>
     )
