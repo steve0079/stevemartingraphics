@@ -1,5 +1,8 @@
 .aboutContainer {
-    min-height: 100vh;
+    background: url(../images/portfolioBackground.jpg) no-repeat center;
+    background-size: 100% 120%;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 @media screen and (max-width: 500px) {

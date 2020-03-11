@@ -1,5 +1,6 @@
 .print_container,
-.digital_container {
+.digital_container,
+.retouch_container {
     background: url(../images/portfolioBackground.jpg) no-repeat top center;
     background-size: 100% 110%;
     padding-top: 100px;
