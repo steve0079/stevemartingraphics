@@ -9,8 +9,7 @@ const sideDrawer = props => {
 
     if (props.show) {
         drawerClasses = 'side-drawer open';
-    } 
-
+    }
 
     return (
         <nav className={drawerClasses} >

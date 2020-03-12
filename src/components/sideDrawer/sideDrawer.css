@@ -19,11 +19,9 @@
     transform: translateX(-100%);
 }
 
-
 .side-drawer a {
     font-size: 1.1rem;
     color: #fff;
-
 }
 
 .side-drawer a:hover {
@@ -35,7 +33,6 @@
     color: rgb(255, 102, 0)
 }
 
-
 .side-drawer ul {
     height: 50vh;
     list-style: none;
@@ -45,7 +42,6 @@
     align-items: center;
     margin-top: 100px;
 }
-
 
 @media (min-width: 901px) {
     .side-drawer {
