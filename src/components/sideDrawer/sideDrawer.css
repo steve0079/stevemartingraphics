@@ -15,7 +15,7 @@
     transform: translateX(0);
 }
 
-.side-drawer.close {
+.side-drawer.closed {
     transform: translateX(-100%);
 }
 

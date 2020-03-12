@@ -51,6 +51,18 @@ const Digital = () => {
                 <div className="portfolio_container">
                     <div className="theCard">
                         <div className="theFront">
+                            <img src={devConnectLogo} alt="" className="theLogo" />
+                            <h2>Websites</h2>
+                        </div>
+                        <div className="theBack">
+                            <DcDigitalModal />
+                        </div>
+                    </div>
+                </div>
+
+                <div className="portfolio_container">
+                    <div className="theCard">
+                        <div className="theFront">
                             <img src={nscLogo} alt="" className="theLogo" />
                             <h2>Websites</h2>
                         </div>
@@ -80,18 +92,6 @@ const Digital = () => {
                         </div>
                         <div className="theBack">
                             <LppDigitalModal />
-                        </div>
-                    </div>
-                </div>
-
-                <div className="portfolio_container">
-                    <div className="theCard">
-                        <div className="theFront">
-                            <img src={devConnectLogo} alt="" className="theLogo" />
-                            <h2>Websites</h2>
-                        </div>
-                        <div className="theBack">
-                            <DcDigitalModal />
                         </div>
                     </div>
                 </div>
