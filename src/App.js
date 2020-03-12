@@ -29,21 +29,20 @@ const App = () => {
     setState({ sideDrawerOpen: false })
   }
 
-  // const linkClickHandler = () => {
-  //   setState({ sideDrawerOpen: false })
-  // }
+  const linkClickHandler = () => {
+    setState({ sideDrawerOpen: false })
+  }
 
   let backdrop;
-  // let linkClick;
+  let linkClick;
 
   if (state.sideDrawerOpen) {
     backdrop = <Backdrop click={backdropClickHandler} />
   }
 
-  // if (state.sideDrawerOpen) {
-  //   linkClick = <SideDrawer click={linkClickHandler} />
-  //   hide={linkClick}
-  // }
+  if (state.sideDrawerOpen) {
+    linkClick = <SideDrawer click={linkClickHandler} />
+  }
 
 
   return (
@@ -52,7 +51,7 @@ const App = () => {
         <Router>
           <ScrollToTop>
             <Navbar drawerClickHandler={drawerToggleClickHandler} />
-            <SideDrawer show={state.sideDrawerOpen} />
+            <SideDrawer show={state.sideDrawerOpen} hide={linkClick} />
             {backdrop}
             <Switch>
               <Route exact path='/' component={Home} />
