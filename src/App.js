@@ -51,7 +51,7 @@ const App = () => {
         <Router>
           <ScrollToTop>
             <Navbar drawerClickHandler={drawerToggleClickHandler} />
-            <SideDrawer show={state.sideDrawerOpen} close={linkClick}/>
+            <SideDrawer show={state.sideDrawerOpen} hide={linkClick}/>
             {backdrop}
             <Switch>
               <Route exact path='/' component={Home} />
