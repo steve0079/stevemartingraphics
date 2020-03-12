@@ -13,7 +13,7 @@ const sideDrawer = props => {
 
     return (
         <nav className={drawerClasses} >
-            <ul  onClick={props.hide}>
+            <ul>
                 <li><Link to='/'>HOME</Link></li>
                 <li><Link to='/print'>PRINT</Link></li>
                 <li><Link to='/digital'>DIGITAL</Link></li>
