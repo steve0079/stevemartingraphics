@@ -17,16 +17,16 @@ import ThirtyOneLabsDigitalModal from '../components/modals/digital/ThirtyOneLab
 import './portfolio.css'
 
 //logoImports
-import vcrLogo from '../images/logo/vcrLogo.png'
-import brsLogo from '../images/logo/brsLogo.png'
-import mcLogo from '../images/logo/mcLogo.png'
-import masLogo from '../images/logo/masLogo.png'
-import nscLogo from '../images/logo/nscLogo.png'
-import lppLogo from '../images/logo/lppLogo.png'
-import dlinkLogo from '../images/logo/dlinkLogo.png'
-import devConnectLogo from '../images/logo/devConnectLogo.png'
-import epsonLogo from '../images/logo/epsonLogo.png'
-import thirtyOneLogo from '../images/logo/31labs_logo_horz.png'
+import vcrLogo from '../images/logo/reverse_logo/vcrLogo.png'
+import brsLogo from '../images/logo/reverse_logo/brsLogo.png'
+import mcLogo from '../images/logo/reverse_logo/mcLogo.png'
+import masLogo from '../images/logo/reverse_logo/masLogo.png'
+import nscLogo from '../images/logo/reverse_logo/nscLogo.png'
+import lppLogo from '../images/logo/reverse_logo/lppLogo.png'
+import dlinkLogo from '../images/logo/reverse_logo/dlinkLogo.png'
+import devConnectLogo from '../images/logo/reverse_logo/devConnectLogo.png'
+import epsonLogo from '../images/logo/reverse_logo/epsonLogo.png'
+import thirtyOneLogo from '../images/logo/reverse_logo/31labs_logo_horz.png'
 
 
 const Digital = () => {

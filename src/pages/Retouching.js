@@ -15,13 +15,13 @@ import Plc2RetouchModal from '../components/modals/retouch/Plc2RetouchModal'
 
 
 //logoImports
-import oliveCrestLogo from '../images/logo/oliveCrestLogo.png'
-import nkLogo from '../images/logo/nkLogo.png'
-import hiOxLogo from '../images/logo/novusMedicalLogo.png'
-import aqLogo from '../images/logo/aquariumPacificLogo.png'
-import mitsuLogo from '../images/logo/mitsuLogo.png'
-import mbLogo from '../images/logo/mbLogo.png'
-import plcLogo from '../images/logo/plcLogo.png'
+import oliveCrestLogo from '../images/logo/reverse_logo/oliveCrestLogo.png'
+import nkLogo from '../images/logo/reverse_logo/nkLogo.png'
+import hiOxLogo from '../images/logo/reverse_logo/novusMedicalLogo.png'
+import aqLogo from '../images/logo/reverse_logo/aquariumPacificLogo.png'
+import mitsuLogo from '../images/logo/reverse_logo/mitsuLogo.png'
+import mbLogo from '../images/logo/reverse_logo/mbLogo.png'
+import plcLogo from '../images/logo/reverse_logo/plcLogo.png'
 
 
 const Retouching = () => {

@@ -18,16 +18,16 @@ import PimcoModal from '../components/modals/print/PimcoModal'
 import './portfolio.css'
 
 //logoImports
-import masLogo from '../images/logo/masLogo.png'
-import ngLogo from '../images/logo/northropGrummanLogo.png'
-import vcrLogo from '../images/logo/vcrLogo.png'
-import kkrLogo from '../images/logo/kkrLogo.png'
-import tannersLogo from '../images/logo/tannersLogo.png'
-import calParks from '../images/logo/calStateParksLogo.png'
-import afLogo from '../images/logo/airFliteLogo.png'
-import toyotaLogo from '../images/logo/toyotaLogo.png'
-import epsonLogo from '../images/logo/epsonLogo.png'
-import PimcoLogo from '../images/logo/PimcoLogo.png'
+import masLogo from '../images/logo/reverse_logo/masLogo.png'
+import ngLogo from '../images/logo/reverse_logo/northropGrummanLogo.png'
+import vcrLogo from '../images/logo/reverse_logo/vcrLogo.png'
+import kkrLogo from '../images/logo/reverse_logo/kkrLogo.png'
+import tannersLogo from '../images/logo/reverse_logo/tannersLogo.png'
+import calParks from '../images/logo/reverse_logo/calStateParksLogo.png'
+import afLogo from '../images/logo/reverse_logo/airFliteLogo.png'
+import toyotaLogo from '../images/logo/reverse_logo/toyotaLogo.png'
+import epsonLogo from '../images/logo/reverse_logo/epsonLogo.png'
+import PimcoLogo from '../images/logo/reverse_logo/PimcoLogo.png'
 
 
 const Print = (props) => {
