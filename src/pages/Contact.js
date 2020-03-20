@@ -6,7 +6,8 @@ import "./contact.css";
 const Contact = () => {
     const { register, handleSubmit, errors } = useForm();
 
-    const onSubmit = (data) => {
+    const onSubmit = (e, data) => {
+        e.preventDefault()
         console.log(data)
     };
 

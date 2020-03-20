@@ -13,7 +13,7 @@ import Digital from './pages/Digital';
 import Retouching from './pages/Retouching';
 import LogoDesign from './pages/LogoDesign';
 import About from './pages/About';
-import Contact from './pages/Contact';
+// import Contact from './pages/Contact';
 
 
 const App = () => {
@@ -61,7 +61,7 @@ const App = () => {
               <Route exact path='/retouching' component={Retouching} />
               <Route exact path='/logo_design' component={LogoDesign} />
               <Route exact path='/about' component={About} />
-              <Route exact path='/contact' component={Contact} />
+              {/* <Route exact path='/contact' component={Contact} /> */}
             </Switch>
           </ScrollToTop>
         </Router>
