@@ -19,7 +19,7 @@ const navbar = props => (
                 <Link to='/digital' className="item">DIGITAL</Link>
                 <Link to='/retouching' className="item">RETOUCHING</Link>
                 <Link to='/about' className="item">ABOUT</Link>
-                {/* <Link to="/contact" className="item">CONTACT</Link> */}
+                <Link to="/contact" className="item">CONTACT</Link>
             </div>
         </nav>
     </header>
