@@ -28,6 +28,7 @@ const HiOxRetouchModal = (props) => {
                 </Modal.Header>
                 <Modal.Body><img src={hiOxAfter} alt="" className="titleImage" /></Modal.Body>
                 <Modal.Footer>
+                    {/* <p className="modalBody">Text goes here</p> */}
                     <button onClick={hideModal}>Close</button>
                 </Modal.Footer>
             </Modal>

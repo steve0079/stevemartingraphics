@@ -8,6 +8,13 @@
     box-shadow: 2px 2px 8px rgba(196, 196, 196, 0.4), -2px -2px 8px rgba(255,255,255, .6)
 }
 
+.modalBody {
+    color: black;
+    font-size: 14px;
+    line-height: 1.5rem;
+    margin: 0 -25px;
+}
+
 .horizontal {
     display: none;
 }

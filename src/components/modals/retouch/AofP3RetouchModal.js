@@ -28,6 +28,7 @@ const HiOxRetouchModal = (props) => {
                 </Modal.Header>
                 <Modal.Body><img src={AofP3_After} alt="" className="titleImage" /></Modal.Body>
                 <Modal.Footer>
+                    <p className='modalBody'>The top six images have been used to create the final image below. Each of the six images came from the origin RAW image and color corrected / balanced for each specific area. Then, each image was layered upon each other, masked out, retouched and flattened to make the final composed image.</p>
                     <button onClick={hideModal}>Close</button>
                 </Modal.Footer>
             </Modal>
