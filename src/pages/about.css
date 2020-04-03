@@ -1,10 +1,7 @@
 .aboutContainer {
     background: url(../images/portfolioBackground.jpg) no-repeat center;
-    background-size: 100% 120%;
-    padding-top: 100px;
-    padding-bottom: 200px;
-    padding-left: 100px;
-    padding-right: 100px;
+    background-size: 100% 100%;
+    padding: 100px 100px 300px 100px;
 }
 
 .aboutBody {

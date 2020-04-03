@@ -1,7 +1,7 @@
 .contactContainer {
     background: url(../images/portfolioBackground.jpg) no-repeat center;
-    background-size: 100% 120%;
-    padding: 100px 20px;
+    background-size: 100% 100%;
+    padding: 100px 20px 300px 20px ;
 }
 
 .formContainer {

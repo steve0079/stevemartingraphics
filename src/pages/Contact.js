@@ -48,14 +48,14 @@ const Contact = () => {
                 <input
                     type="tel"
                     name="phoneNumber"
-                    ref={register({ required: true, pattern: /^[1-9]\d{2}-\d{3}-\d{4}/i })}
+                    ref={register({ required: true /*, pattern: /^[1-9]\d{2}-\d{3}-\d{4}/i*/ })}
                 />
                 {errors.phoneNumber && errors.phoneNumber.type === 'required' && (
                     <div className="errorMsg">This is required.</div>
                 )}
-                {errors.phoneNumber && errors.phoneNumber.type === 'pattern' && (
+                {/* {errors.phoneNumber && errors.phoneNumber.type === 'pattern' && (
                     <div className="errorMsg">Please follow phone number format 000-000-0000.</div>
-                )}
+                )} */}
 
                 <label>Email</label>
                 <input
