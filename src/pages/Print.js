@@ -1,4 +1,5 @@
-import React from 'react'
+import React, { useState } from 'react'
+import Spinner from 'react-bootstrap/Spinner'
 
 //modalImports
 import MasModal from '../components/modals/print/MasModal'
@@ -21,6 +22,7 @@ const Print = (props) => {
 
   return (
     <div className="print_container">
+      
       <h1 className="title">The Work:</h1>
       <div className="portfolio">
         <div className="portfolio_container mas">
