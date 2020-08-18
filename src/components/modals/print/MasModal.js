@@ -2,9 +2,6 @@ import React, { useState } from 'react';
 import Modal from 'react-bootstrap/Modal';
 import '../modals.css'
 
-import masAd from '../../../images/print/masAd.jpg'
-
-
 
 const MasModal = (props) => {
 
@@ -22,14 +19,14 @@ const MasModal = (props) => {
         <div>
             <h2 className="horizontal">Advertising</h2>
             <div onClick={showModal} Display Modal>
-                <img src={masAd} alt="" className="modalButton" />
+                <img src="https://stevemartindesigndeveloper.s3.amazonaws.com/images/print/masAd.jpg" alt="" className="modalButton" />
             </div>
             <Modal show={isOpen} onHide={hideModal}>
                 <Modal.Header closeButton >
                     <Modal.Title>Malaysia Airlines</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                    <img src={masAd} alt="" className="titleImage" />
+                    <img src="https://stevemartindesigndeveloper.s3.amazonaws.com/images/print/masAd.jpg" alt="" className="titleImage" />
                 </Modal.Body>
                 <Modal.Footer>
                     <button onClick={hideModal}>Close</button>

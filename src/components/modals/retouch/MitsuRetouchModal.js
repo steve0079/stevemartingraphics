@@ -2,10 +2,6 @@ import React, { useState } from 'react';
 import Modal from 'react-bootstrap/Modal';
 import '../modals.css'
 
-import Mitsu_Before from '../../../images/retouch/Mitsu_Before.jpg'
-import Mitsu_After from '../../../images/retouch/Mitsu_After.png'
-
-
 const MitsuRetouchModal = (props) => {
 
     const [isOpen, setIsOpen] = useState(false);
@@ -21,12 +17,12 @@ const MitsuRetouchModal = (props) => {
     return (
         <div>
             <h2 className="horizontal">Image Manipulation</h2>
-            <div onClick={showModal} Display Modal><img src={Mitsu_Before} alt="" className="modalButton" /></div>
+            <div onClick={showModal} Display Modal><img src="https://stevemartindesigndeveloper.s3.amazonaws.com/images/retouch/Mitsu_Before.jpg" alt="" className="modalButton" /></div>
             <Modal show={isOpen} onHide={hideModal}>
                 <Modal.Header closeButton >
                     <Modal.Title>Mitsubishi Electric</Modal.Title>
                 </Modal.Header>
-                <Modal.Body><img src={Mitsu_After} alt="" className="titleImage" /></Modal.Body>
+                <Modal.Body><img src="https://stevemartindesigndeveloper.s3.amazonaws.com/images/retouch/Mitsu_After.png" alt="" className="titleImage" /></Modal.Body>
                 <Modal.Footer>
                     <button onClick={hideModal}>Close</button>
                 </Modal.Footer>

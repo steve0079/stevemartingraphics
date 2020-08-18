@@ -2,9 +2,6 @@ import React, { useState } from 'react';
 import Modal from 'react-bootstrap/Modal';
 import '../modals.css'
 
-import trac from '../../../images/print/TRAC_mailer.png'
-
-
 const TracModal = (props) => {
 
     const [isOpen, setIsOpen] = useState(false);
@@ -21,13 +18,13 @@ const TracModal = (props) => {
         <div>
             <h2 className="horizontal">Direct Mail</h2>
             <div onClick={showModal} Display Modal>
-                <img src={trac} alt="" className="modalButton" />
+                <img src="https://stevemartindesigndeveloper.s3.amazonaws.com/images/print/TRAC_mailer.png" alt="" className="modalButton" />
             </div>
             <Modal show={isOpen} onHide={hideModal}>
                 <Modal.Header closeButton >
                     <Modal.Title>Toyota Rent-a-Car</Modal.Title>
                 </Modal.Header>
-                <Modal.Body><img src={trac} alt="" className="titleImage" /></Modal.Body>
+                <Modal.Body><img src="https://stevemartindesigndeveloper.s3.amazonaws.com/images/print/TRAC_mailer.png" alt="" className="titleImage" /></Modal.Body>
                 <Modal.Footer>
                     <button onClick={hideModal}>Close</button>
                 </Modal.Footer>

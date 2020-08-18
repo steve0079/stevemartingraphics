@@ -17,19 +17,6 @@ import PimcoModal from '../components/modals/print/PimcoModal'
 //cssImports
 import './portfolio.css'
 
-//logoImports
-import masLogo from '../images/logo/reverse_logo/masLogo.png'
-import ngLogo from '../images/logo/reverse_logo/northropGrummanLogo.png'
-import vcrLogo from '../images/logo/reverse_logo/vcrLogo.png'
-import kkrLogo from '../images/logo/reverse_logo/kkrLogo.png'
-import tannersLogo from '../images/logo/reverse_logo/tannersLogo.png'
-import calParks from '../images/logo/reverse_logo/calStateParksLogo.png'
-import afLogo from '../images/logo/reverse_logo/airFliteLogo.png'
-import toyotaLogo from '../images/logo/reverse_logo/toyotaLogo.png'
-import epsonLogo from '../images/logo/reverse_logo/epsonLogo.png'
-import PimcoLogo from '../images/logo/reverse_logo/PimcoLogo.png'
-
-
 const Print = (props) => {
 
   return (
@@ -39,7 +26,7 @@ const Print = (props) => {
         <div className="portfolio_container mas">
           <div className="theCard">
             <div className="theFront">
-              <img src={masLogo} alt="" className="theLogo" />
+              <img src="https://stevemartindesigndeveloper.s3.amazonaws.com/images/logo/reverse_logo/masLogo.png" alt="" className="theLogo" />
               <h2>Advertising</h2>
             </div>
             <div className="theBack">
@@ -51,7 +38,7 @@ const Print = (props) => {
         <div className="portfolio_container jwst">
           <div className="theCard">
             <div className="theFront">
-              <img src={ngLogo} alt="" className="theLogo" />
+              <img src="https://stevemartindesigndeveloper.s3.amazonaws.com/images/logo/reverse_logo/northropGrummanLogo.png" alt="" className="theLogo" />
               <h2>Brochures</h2>
             </div>
             <div className="theBack">
@@ -63,7 +50,7 @@ const Print = (props) => {
         <div className="portfolio_container vcr">
           <div className="theCard">
             <div className="theFront">
-              <img src={vcrLogo} alt="" className="theLogo" />
+              <img src="https://stevemartindesigndeveloper.s3.amazonaws.com/images/logo/reverse_logo/vcrLogo.png" alt="" className="theLogo" />
               <h2>Advertising</h2>
             </div>
             <div className="theBack">
@@ -75,7 +62,7 @@ const Print = (props) => {
         <div className="portfolio_container kkr">
           <div className="theCard">
             <div className="theFront">
-              <img src={kkrLogo} alt="" className="theLogo" />
+              <img src="https://stevemartindesigndeveloper.s3.amazonaws.com/images/logo/reverse_logo/kkrLogo.png" alt="" className="theLogo" />
               <h2>Displays</h2>
             </div>
             <div className="theBack">
@@ -87,7 +74,7 @@ const Print = (props) => {
         <div className="portfolio_container tanners">
           <div className="theCard">
             <div className="theFront">
-              <img src={tannersLogo} alt="" className="theLogo" />
+              <img src="https://stevemartindesigndeveloper.s3.amazonaws.com/images/logo/reverse_logo/tannersLogo.png" alt="" className="theLogo" />
               <h2>Displays</h2>
             </div>
             <div className="theBack">
@@ -99,7 +86,7 @@ const Print = (props) => {
         <div className="portfolio_container tps">
           <div className="theCard">
             <div className="theFront">
-              <img src={toyotaLogo} alt="" className="theLogo" />
+              <img src="https://stevemartindesigndeveloper.s3.amazonaws.com/images/logo/reverse_logo/toyotaLogo.png" alt="" className="theLogo" />
               <h2>Posters</h2>
             </div>
             <div className="theBack">
@@ -111,7 +98,7 @@ const Print = (props) => {
         <div className="portfolio_container masBB">
           <div className="theCard">
             <div className="theFront">
-              <img src={masLogo} alt="" className="theLogo" />
+              <img src="https://stevemartindesigndeveloper.s3.amazonaws.com/images/logo/reverse_logo/masLogo.png" alt="" className="theLogo" />
               <h2>Outdoor</h2>
             </div>
             <div className="theBack">
@@ -123,7 +110,7 @@ const Print = (props) => {
         <div className="portfolio_container folsom">
           <div className="theCard">
             <div className="theFront">
-              <img src={calParks} alt="" className="theLogo" />
+              <img src="https://stevemartindesigndeveloper.s3.amazonaws.com/images/logo/reverse_logo/calStateParksLogo.png" alt="" className="theLogo" />
               <h2>Displays</h2>
             </div>
             <div className="theBack">
@@ -135,7 +122,7 @@ const Print = (props) => {
         <div className="portfolio_container airFlite">
           <div className="theCard">
             <div className="theFront">
-              <img src={afLogo} alt="" className="theLogo" />
+              <img src="https://stevemartindesigndeveloper.s3.amazonaws.com/images/logo/reverse_logo/airFliteLogo.png" alt="" className="theLogo" />
               <h2>Direct Mail</h2>
             </div>
             <div className="theBack">
@@ -147,7 +134,7 @@ const Print = (props) => {
         <div className="portfolio_container trac">
           <div className="theCard">
             <div className="theFront">
-              <img src={toyotaLogo} alt="" className="theLogo" />
+              <img src="https://stevemartindesigndeveloper.s3.amazonaws.com/images/logo/reverse_logo/toyotaLogo.png" alt="" className="theLogo" />
               <h2>Direct Mail</h2>
             </div>
             <div className="theBack">
@@ -159,7 +146,7 @@ const Print = (props) => {
         <div className="portfolio_container epsonCedia">
           <div className="theCard">
             <div className="theFront">
-              <img src={epsonLogo} alt="" className="theLogo" />
+              <img src="https://stevemartindesigndeveloper.s3.amazonaws.com/images/logo/reverse_logo/epsonLogo.png" alt="" className="theLogo" />
               <h2>Brochures</h2>
             </div>
             <div className="theBack">
@@ -171,7 +158,7 @@ const Print = (props) => {
         <div className="portfolio_container pimco">
           <div className="theCard">
             <div className="theFront">
-              <img src={PimcoLogo} alt="" className="theLogo" />
+              <img src="https://stevemartindesigndeveloper.s3.amazonaws.com/images/logo/reverse_logo/PimcoLogo.png" alt="" className="theLogo" />
               <h2>Books</h2>
             </div>
             <div className="theBack">

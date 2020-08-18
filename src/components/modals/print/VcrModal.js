@@ -2,9 +2,6 @@ import React, { useState } from 'react';
 import Modal from 'react-bootstrap/Modal';
 import '../modals.css'
 
-import vcr from '../../../images/print/VC_BayAreaNewspaper_Ad.jpg'
-
-
 const VcrModal = (props) => {
 
     const [isOpen, setIsOpen] = useState(false);
@@ -21,13 +18,13 @@ const VcrModal = (props) => {
         <div>
             <h2 className="horizontal">Advertising</h2>
             <div onClick={showModal} Display Modal>
-                <img src={vcr} alt="" className="modalButton" />
+                <img src="https://stevemartindesigndeveloper.s3.amazonaws.com/images/print/VC_BayAreaNewspaper_Ad.jpg" alt="" className="modalButton" />
             </div>
             <Modal show={isOpen} onHide={hideModal}>
                 <Modal.Header closeButton >
                     <Modal.Title>Vista Collina Resort</Modal.Title>
                 </Modal.Header>
-                <Modal.Body><img src={vcr} alt="" className="titleImage" /></Modal.Body>
+                <Modal.Body><img src="https://stevemartindesigndeveloper.s3.amazonaws.com/images/print/VC_BayAreaNewspaper_Ad.jpg" alt="" className="titleImage" /></Modal.Body>
                 <Modal.Footer>
                     <button onClick={hideModal}>Close</button>
                 </Modal.Footer>

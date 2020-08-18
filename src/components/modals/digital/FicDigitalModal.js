@@ -24,7 +24,7 @@ const DcDigitalModal = (props) => {
             </div>
             <Modal show={isOpen} onHide={hideModal}>
                 <Modal.Header closeButton >
-                    <Modal.Title>Developer Connector</Modal.Title>
+                    <Modal.Title>Foundations in Creation</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
                     <Link to="//foundationsincreation.org/" target="_blank">

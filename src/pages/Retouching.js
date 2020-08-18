@@ -14,16 +14,6 @@ import PlcRetouchModal from '../components/modals/retouch/PlcRetouchModal'
 import Plc2RetouchModal from '../components/modals/retouch/Plc2RetouchModal'
 
 
-//logoImports
-import oliveCrestLogo from '../images/logo/reverse_logo/oliveCrestLogo.png'
-import nkLogo from '../images/logo/reverse_logo/nkLogo.png'
-import hiOxLogo from '../images/logo/reverse_logo/novusMedicalLogo.png'
-import aqLogo from '../images/logo/reverse_logo/aquariumPacificLogo.png'
-import mitsuLogo from '../images/logo/reverse_logo/mitsuLogo.png'
-import mbLogo from '../images/logo/reverse_logo/mbLogo.png'
-import plcLogo from '../images/logo/reverse_logo/plcLogo.png'
-
-
 const Retouching = () => {
 
   return (
@@ -34,7 +24,7 @@ const Retouching = () => {
         <div className="portfolio_container">
           <div className="theCard">
             <div className="theFront">
-              <img src={nkLogo} alt="" className="theLogo" />
+              <img src="https://stevemartindesigndeveloper.s3.amazonaws.com/images/logo/reverse_logo/nkLogo.png" alt="" className="theLogo" />
               <h2>Image Retouching</h2>
             </div>
             <div className="theBack">
@@ -46,7 +36,7 @@ const Retouching = () => {
         <div className="portfolio_container">
           <div className="theCard">
             <div className="theFront">
-              <img src={hiOxLogo} alt="" className="theLogo" />
+              <img src="https://stevemartindesigndeveloper.s3.amazonaws.com/images/logo/reverse_logo/novusMedicalLogo.png" alt="" className="theLogo" />
               <h2>Image Retouching</h2>
             </div>
             <div className="theBack">
@@ -58,7 +48,7 @@ const Retouching = () => {
         <div className="portfolio_container">
           <div className="theCard">
             <div className="theFront">
-              <img src={oliveCrestLogo} alt="" className="theLogo" />
+              <img src="https://stevemartindesigndeveloper.s3.amazonaws.com/images/logo/reverse_logo/oliveCrestLogo.png" alt="" className="theLogo" />
               <h2>Image Retouching</h2>
             </div>
             <div className="theBack">
@@ -70,7 +60,7 @@ const Retouching = () => {
         <div className="portfolio_container">
           <div className="theCard">
             <div className="theFront">
-              <img src={aqLogo} alt="" className="theLogo" />
+              <img src="https://stevemartindesigndeveloper.s3.amazonaws.com/images/logo/reverse_logo/aquariumPacificLogo.png" alt="" className="theLogo" />
               <h2>Image Manipulation</h2>
             </div>
             <div className="theBack">
@@ -82,7 +72,7 @@ const Retouching = () => {
         <div className="portfolio_container">
           <div className="theCard">
             <div className="theFront">
-              <img src={plcLogo} alt="" className="theLogo" />
+              <img src="https://stevemartindesigndeveloper.s3.amazonaws.com/images/logo/reverse_logo/plcLogo.png" alt="" className="theLogo" />
               <h2>Image Manipulation</h2>
             </div>
             <div className="theBack">
@@ -94,7 +84,7 @@ const Retouching = () => {
         <div className="portfolio_container">
           <div className="theCard">
             <div className="theFront">
-              <img src={mitsuLogo} alt="" className="theLogo" />
+              <img src="https://stevemartindesigndeveloper.s3.amazonaws.com/images/logo/reverse_logo/mitsuLogo.png" alt="" className="theLogo" />
               <h2>Image Manipulation</h2>
             </div>
             <div className="theBack">
@@ -106,7 +96,7 @@ const Retouching = () => {
         <div className="portfolio_container">
           <div className="theCard">
             <div className="theFront">
-              <img src={mbLogo} alt="" className="theLogo" />
+              <img src="https://stevemartindesigndeveloper.s3.amazonaws.com/images/logo/reverse_logo/mbLogo.png" alt="" className="theLogo" />
               <h2>Image Creation</h2>
             </div>
             <div className="theBack">
@@ -118,7 +108,7 @@ const Retouching = () => {
         <div className="portfolio_container">
           <div className="theCard">
             <div className="theFront">
-              <img src={plcLogo} alt="" className="theLogo" />
+              <img src="https://stevemartindesigndeveloper.s3.amazonaws.com/images/logo/reverse_logo/plcLogo.png" alt="" className="theLogo" />
               <h2>Image Manipulation</h2>
             </div>
             <div className="theBack">
