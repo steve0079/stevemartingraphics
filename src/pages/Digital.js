@@ -8,7 +8,7 @@ import VcrDigitalModal from '../components/modals/digital/VcrDigitalModal'
 import BrsDigitalModal from '../components/modals/digital/BrsDigitalModal'
 import McDigitalModal from '../components/modals/digital/McDigitalModal'
 import EpsonDigitalModal from '../components/modals/digital/EpsonDigitalModal'
-import DcDigitalModal from '../components/modals/digital/DcDigitalModal'
+import FicDigitalModal from '../components/modals/digital/FicDigitalModal'
 import DlinkDigitalModal from '../components/modals/digital/DlinkDigitalModal'
 import ThirtyOneLabsDigitalModal from '../components/modals/digital/ThirtyOneLabsDigitalModal'
 
@@ -24,7 +24,6 @@ import masLogo from '../images/logo/reverse_logo/masLogo.png'
 import nscLogo from '../images/logo/reverse_logo/nscLogo.png'
 import lppLogo from '../images/logo/reverse_logo/lppLogo.png'
 import dlinkLogo from '../images/logo/reverse_logo/dlinkLogo.png'
-import devConnectLogo from '../images/logo/reverse_logo/devConnectLogo.png'
 import epsonLogo from '../images/logo/reverse_logo/epsonLogo.png'
 import thirtyOneLogo from '../images/logo/reverse_logo/31labs_logo_horz.png'
 
@@ -36,6 +35,18 @@ const Digital = () => {
             <h1 className="title">The Work:</h1>
             <div className="portfolio">
 
+            <div className="portfolio_container">
+                    <div className="theCard">
+                        <div className="theFront">
+                            <img src="https://stevemartindesigndeveloper.s3.amazonaws.com/images/logo/ficLogo.jpg" alt="" className="theLogo" />
+                            <h2>Websites</h2>
+                        </div>
+                        <div className="theBack">
+                            <FicDigitalModal />
+                        </div>
+                    </div>
+                </div>
+
                 <div className="portfolio_container">
                     <div className="theCard">
                         <div className="theFront">
@@ -44,18 +55,6 @@ const Digital = () => {
                         </div>
                         <div className="theBack">
                             <ThirtyOneLabsDigitalModal />
-                        </div>
-                    </div>
-                </div>
-
-                <div className="portfolio_container">
-                    <div className="theCard">
-                        <div className="theFront">
-                            <img src={devConnectLogo} alt="" className="theLogo" />
-                            <h2>Websites</h2>
-                        </div>
-                        <div className="theBack">
-                            <DcDigitalModal />
                         </div>
                     </div>
                 </div>

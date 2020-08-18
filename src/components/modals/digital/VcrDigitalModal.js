@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import Modal from 'react-bootstrap/Modal';
 import '../modals.css'
 
-import vcBanners from '../../../images/digital/vcBanners.jpg'
 
 
 const VcrDigitalModal = (props) => {
@@ -21,14 +20,14 @@ const VcrDigitalModal = (props) => {
         <div>
             <h2 className="horizontal">Banner Ads</h2>
             <div onClick={showModal} Display Modal>
-                <img src={vcBanners} alt="" className="modalButton" />
+                <img src="https://stevemartindesigndeveloper.s3.amazonaws.com/images/digital/vcBanners.jpg" alt="" className="modalButton" />
             </div>
             <Modal show={isOpen} onHide={hideModal}>
                 <Modal.Header closeButton >
                     <Modal.Title>Vista Collina Resort</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                    <img src={vcBanners} alt="" className="titleImage" />
+                    <img src="https://stevemartindesigndeveloper.s3.amazonaws.com/images/digital/vcBanners.jpg" alt="" className="titleImage" />
                 </Modal.Body>
                 <Modal.Footer>
                     <button onClick={hideModal}>Close</button>

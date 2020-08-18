@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import Modal from 'react-bootstrap/Modal';
 import '../modals.css'
 
-import dLinkLanding from '../../../images/digital/dLinkLanding.jpg'
 
 
 const DlinkDigitalModal = (props) => {
@@ -21,14 +20,14 @@ const DlinkDigitalModal = (props) => {
         <div>
             <h2 className="horizontal">Landing Page</h2>
             <div onClick={showModal} Display Modal>
-                <img src={dLinkLanding} alt="" className="modalButton" />
+                <img src="https://stevemartindesigndeveloper.s3.amazonaws.com/images/digital/dLinkLanding.jpg" alt="" className="modalButton" />
             </div>
             <Modal show={isOpen} onHide={hideModal}>
                 <Modal.Header closeButton >
                     <Modal.Title>D-Link Home Security</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                    <img src={dLinkLanding} alt="" className="titleImage" />
+                    <img src="https://stevemartindesigndeveloper.s3.amazonaws.com/images/digital/dLinkLanding.jpg" alt="" className="titleImage" />
                 </Modal.Body>
                 <Modal.Footer>
                     <button onClick={hideModal}>Close</button>

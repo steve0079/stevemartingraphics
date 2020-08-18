@@ -2,11 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom'
 import './home.css'
 
-import printIcon from '../images/icons/print_bw_icon.jpg'
-import digitalIcon from '../images/icons/digital_bw_icon.jpg'
-import retouchIcon from '../images/icons/retouch_bw_icon.jpg'
-
-
 const Home = (props) => {
 
 
@@ -17,7 +12,7 @@ const Home = (props) => {
         <h3>I'm a Graphic Designer and Full Stack Developer, creating effective visual identities for companies of all industries.</h3>
       <ul className="image_links">
         <li className="image_container">
-          <img src={printIcon} alt="" className="image" />
+          <img src="https://stevemartindesigndeveloper.s3.amazonaws.com/images/icons/print_bw_icon.jpg" alt="" className="image" />
           <Link to='/print'>
             <button className="overlayPrint">
               <div className="category_header">print</div>
@@ -25,7 +20,7 @@ const Home = (props) => {
           </Link>
         </li>
         <li className="image_container">
-          <img src={digitalIcon} alt="" className="image" />
+          <img src="https://stevemartindesigndeveloper.s3.amazonaws.com/images/icons/digital_bw_icon.jpg" alt="" className="image" />
           <Link to='/digital'>
             <button className="overlayDigital">
               <div className="category_header">digital</div>
@@ -33,7 +28,7 @@ const Home = (props) => {
           </Link>
         </li>
         <li className="image_container">
-          <img src={retouchIcon} alt="" className="image" />
+          <img src="https://stevemartindesigndeveloper.s3.amazonaws.com/images/icons/retouch_bw_icon.jpg" alt="" className="image" />
           <Link to='/retouching'>
             <button className="overlayRetouch">
               <div className="category_header">retouching</div>

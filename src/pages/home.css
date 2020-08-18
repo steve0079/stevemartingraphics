@@ -5,7 +5,7 @@
     justify-content: center;
     padding-top: 90px;
     min-height: 100vh;
-    background: url(../images/BRS_Resort_Grounds_2700x1500.jpg) no-repeat top center;
+    background: url(https://stevemartindesigndeveloper.s3.amazonaws.com/images/BRS_Resort_Grounds_2700x1500.jpg) no-repeat top center;
     background-size: cover;
     overflow: hidden;
 }
@@ -60,7 +60,7 @@
     position: absolute;
     left: 50px;
     top: 50px;
-    background-image: url(../images/icons/print_icon.jpg);
+    background-image: url(https://stevemartindesigndeveloper.s3.amazonaws.com/images/icons/print_icon.jpg);
     background-size: 100%;
     overflow: hidden;
     border: none;
@@ -74,7 +74,7 @@
     position: absolute;
     left: 50px;
     top: 50px;
-    background-image: url(../images/icons/digital_icon.jpg);
+    background-image: url(https://stevemartindesigndeveloper.s3.amazonaws.com/images/icons/digital_icon.jpg);
     background-size: 100%;
     overflow: hidden;
     border: none;
@@ -88,7 +88,7 @@
     position: absolute;
     left: 50px;
     top: 50px;
-    background-image: url(../images/icons/retouch_icon.jpg);
+    background-image: url(https://stevemartindesigndeveloper.s3.amazonaws.com/images/icons/retouch_icon.jpg);
     background-size: 100%;
     overflow: hidden;
     border: none;

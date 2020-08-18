@@ -3,8 +3,6 @@ import { Link } from 'react-router-dom';
 import Modal from 'react-bootstrap/Modal';
 import '../modals.css'
 
-import devConnectWeb from '../../../images/digital/devConnectWeb.jpg'
-
 
 const DcDigitalModal = (props) => {
 
@@ -22,15 +20,15 @@ const DcDigitalModal = (props) => {
         <div>
             <h2 className="horizontal">Websites</h2>
             <div onClick={showModal} Display Modal>
-                <img src={devConnectWeb} alt="" className="modalButton" />
+                <img src="https://stevemartindesigndeveloper.s3.amazonaws.com/images/digital/ficHomePage.jpg" alt="" className="modalButton" />
             </div>
             <Modal show={isOpen} onHide={hideModal}>
                 <Modal.Header closeButton >
                     <Modal.Title>Developer Connector</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                    <Link to="//boiling-bastion-07485.herokuapp.com" target="_blank">
-                        <img src={devConnectWeb} alt="" className="titleImage" />
+                    <Link to="//foundationsincreation.org/" target="_blank">
+                        <img src="https://stevemartindesigndeveloper.s3.amazonaws.com/images/digital/ficHomePage.jpg" alt="" className="titleImage" />
                     </Link>
                 </Modal.Body>
                 <Modal.Footer>
