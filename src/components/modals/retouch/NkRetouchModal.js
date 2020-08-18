@@ -22,7 +22,7 @@ const OcRetouchModal = (props) => {
                 <Modal.Header closeButton >
                     <Modal.Title>Nihon Koden Monitoring System</Modal.Title>
                 </Modal.Header>
-                <Modal.Body><img src="https://stevemartindesigndeveloper.s3.amazonaws.com/images/retouch/NK_Before.png" alt="" className="titleImage" /></Modal.Body>
+                <Modal.Body><img src="https://stevemartindesigndeveloper.s3.amazonaws.com/images/retouch/NK_After.png" alt="" className="titleImage" /></Modal.Body>
                 <Modal.Footer>
                     <button onClick={hideModal}>Close</button>
                 </Modal.Footer>
